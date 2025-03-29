@@ -6936,4 +6936,190 @@
         <tag>经济学</tag>
       </tags>
   </entry>
+  <entry>
+    <title>投资模拟 Week 5</title>
+    <url>/2025/03/30/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E6%8A%95%E8%B5%84%E6%A8%A1%E6%8B%9F/%E6%8A%95%E8%B5%84%E6%A8%A1%E6%8B%9F%20Week%205/</url>
+    <content><![CDATA[<h2 id="概览"><a href="#概览" class="headerlink" title=" 概览"></a><span id="more"></span> 概览</h2><p>账号名称：juufuutei iori</p>
+<p>盈亏状态：若以当前价位全部平仓，亏损 9634.35 USD。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>名称（代码）</th>
+<th style="text-align:center">持仓比例</th>
+<th style="text-align:center">持仓金额</th>
+<th style="text-align:center">持仓平均成本</th>
+<th style="text-align:center">现价</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>苹果（AAPL）</td>
+<td style="text-align:center">20.55%</td>
+<td style="text-align:center">197,607</td>
+<td style="text-align:center">219.56</td>
+<td style="text-align:center">217.90</td>
+</tr>
+<tr>
+<td>谷歌（GOOG）</td>
+<td style="text-align:center">27.12%</td>
+<td style="text-align:center">260,761</td>
+<td style="text-align:center">169.22</td>
+<td style="text-align:center">156.06</td>
+</tr>
+<tr>
+<td>微软（MSFT）</td>
+<td style="text-align:center">21.82%</td>
+<td style="text-align:center">209,759</td>
+<td style="text-align:center">383.47</td>
+<td style="text-align:center">378.80</td>
+</tr>
+<tr>
+<td>英伟达（NVDA）</td>
+<td style="text-align:center">3.08%</td>
+<td style="text-align:center">29,569</td>
+<td style="text-align:center">120.69</td>
+<td style="text-align:center">109.67</td>
+</tr>
+<tr>
+<td>半导体三倍做多（SOXL）</td>
+<td style="text-align:center">17.01%</td>
+<td style="text-align:center">163,530</td>
+<td style="text-align:center">19.24</td>
+<td style="text-align:center">16.01</td>
+</tr>
+<tr>
+<td>特斯拉两倍做空（TSLQ）</td>
+<td style="text-align:center">10.42%</td>
+<td style="text-align:center">100,175</td>
+<td style="text-align:center">40.07</td>
+<td style="text-align:center">44.25</td>
+</tr>
+<tr>
+<td>合计</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">961,401</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><p>这周主要在买 etf，试了下加杠杆，太 crazy 了。SOXL 一只持仓不到 18% 的股票，直接能亏掉本金的 3%。等价格合适了把两只 etf 给出手了，这玩意真不能碰。</p>
+<p>第五个交易日，应该是凌晨左右吧，msft 降价到 buy limit，自动买了 200 股。</p>
+<p>其余信息如下图所示。</p>
+<p><img lazyload="" alt="week5_1" data-src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/week5_1.9gwqqctwfd.webp"></p>
+<p><img lazyload="" alt="week5_2" data-src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/week5_2.58hjgj3nn0.webp"></p>
+<h2 id="个股"><a href="#个股" class="headerlink" title="个股"></a>个股</h2><h3 id="苹果-APPL"><a href="#苹果-APPL" class="headerlink" title="苹果 APPL"></a>苹果 APPL</h3><p>没咋关注，但它是苹果，所以长期持有没啥问题。只是这个课程活动剩下两个月结束。</p>
+<h3 id="谷歌-GOOG"><a href="#谷歌-GOOG" class="headerlink" title="谷歌 GOOG"></a>谷歌 GOOG</h3><p>亏损大户，没几天上涨的。欧盟又开始敲诈勒索，鬼知道这轮谈判要持续多久。</p>
+<p>Android 要转向闭源了，也想学苹果做一个生态圈？</p>
+<h3 id="特斯拉-TSLA"><a href="#特斯拉-TSLA" class="headerlink" title="特斯拉 TSLA"></a>特斯拉 TSLA</h3><p>25% 汽车关税要来咯。虽然特斯拉在美国销售的电动车基本是本地生产的，但顶不住零部件需要进口。只能说相比其他车企，特斯拉的处境会稍微好一些。</p>
+]]></content>
+      <categories>
+        <category>经济学</category>
+      </categories>
+      <tags>
+        <tag>投资模拟</tag>
+        <tag>经济学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《宏观经济学》</title>
+    <url>/2025/03/25/%E4%B9%A6%E7%B1%8D/%E9%98%85%E8%AF%BB%E4%B8%8E%E8%AE%B0%E5%BD%95/%E5%9C%A8%E8%AF%BB/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><span id="more"></span></h1><h1 id="第-8-篇-宏观经济学的数据"><a href="#第-8-篇-宏观经济学的数据" class="headerlink" title="第 8 篇 宏观经济学的数据"></a>第 8 篇 宏观经济学的数据</h1><p>用于监测整体经济发展的生产总量和物价总水平。</p>
+<h2 id="第-23-章-一国收入的衡量"><a href="#第-23-章-一国收入的衡量" class="headerlink" title="第 23 章 一国收入的衡量"></a>第 23 章 一国收入的衡量</h2><ul>
+<li>国内生产总值（gross domestic product, GDP）：在某一既定时期一个国家内生产的所有最终物品与服务的市场价值。</li>
+<li>国民生产总值（GNP）：一国永久居民（称为国民）所赚到的总收入。</li>
+<li>国民生产净值（NNP）：一国居民的总收入（GNP）减折旧。<ul>
+<li>折旧：经济中设备和建筑物存量的磨损或损耗。</li>
+</ul>
+</li>
+<li>国民收入：一国居民在物品与服务生产中赚到的总收入。</li>
+<li>个人收入：家庭和非公司制企业得到的收入。</li>
+<li>个人可支配收入：家庭和非公司制企业在完成它们对政府的义务之后剩下的收入。</li>
+</ul>
+<p>GDP（用 Y 表示）被分为四个组成部分：消费（C）、投资（I）、政府购买（G）和净出口（NX）：<code>Y = C + I + G + NX</code></p>
+<ul>
+<li>消费：家庭除购买新住房之外用于物品与服务的支出。</li>
+<li>投资：用于资本设备、存货和建筑物的支出，包括家庭用于购买新住房的支出。</li>
+<li>政府购买：地方、州和联邦政府用于物品与服务的支出。</li>
+<li>净出口：外国人对国内生产的物品的支出（出口）减去国内居民对外国物品的支出（进口）。</li>
+</ul>
+<p>由于真实 GDP 不受价格变动的影响，所以真实 GDP 的变动只反映生产的产量的变动。</p>
+<ul>
+<li>名义 GDP：按现期价格评价的物品与服务的生产。</li>
+<li>真实 GDP：按不变价格评价的物品与服务的生产。</li>
+<li>GDP 平减指数：用名义 GDP 与真实 GDP 的比率乘以 100 计算的物价水平衡量指标。</li>
+<li>通货膨胀率（指标 1）：相邻两年的 GDP 平减指数上升比率。</li>
+</ul>
+<p>罗伯特·肯尼迪（Robert Kennedy）在 1968 年竞选总统时，说了这么一番话以批评 GDP 这种经济衡量指标：（国内生产总值）并没有考虑到我们孩子的健康、他们的教育质量，或者他们做游戏的快乐。它也没有包括我们的诗歌之美和婚姻的稳定，以及我们关于公共问题争论的智慧和我们公务员的廉正。它既没有衡量我们的勇气、我们的智慧，也没有衡量我们对祖国的热爱。简言之，它衡量一切，但并不包括使我们的生活有意义的东西；它可以告诉我们关于美国人的一切，但没有告诉我们为什么我们以做一个美国人而骄傲。</p>
+<p>GDP 没有直接衡量这些使生活有意义的东西，但它确实衡量了我们获得过上这份有意义生活的许多投入的能力。但是 GDP 没有衡量对美好生活做出贡献的某些东西，几乎未包括所有在市场之外进行的活动的价值，没有包括环境质量，也没有涉及收入分配。</p>
+<p>就大多数情况——但不是所有情况——而言，GDP 是衡量经济福利的一个好指标。重要的是，要<strong>记住 GDP 包括了什么，而又遗漏了什么</strong>。</p>
+<p>但用 GDP 来衡量政策是否成功远远未尽如人意。每人每周工作 120 小时会极大地抬高一国的人均 GDP，但它绝不会使人们觉得更幸福。取消污染限制会提高每工作小时的 GDP，但这不可能带给我们宜居的世界。</p>
+<h2 id="第-24-章-生活费用的衡量"><a href="#第-24-章-生活费用的衡量" class="headerlink" title="第 24 章 生活费用的衡量"></a>第 24 章 生活费用的衡量</h2><ul>
+<li>消费物价指数（CPI）：普通消费者所购买的物品与服务的总费用的衡量指标。</li>
+<li>通货膨胀率（指标 2）：从前一个时期依赖物价指数变动的百分比。</li>
+<li>生产物价指数（PPI）：企业所购买的一篮子物品与服务的费用的衡量指标。</li>
+</ul>
+<p>消费物价指数的三个问题：</p>
+<ul>
+<li>替代偏向。消费者对物品与服务的消费结构并不固定，受到价格波动影响。</li>
+<li>新物品的引进。维持同等经济福利水平，费用降低了。钱更值钱。</li>
+<li>无法衡量的质量变动。支付相同的费用，经济福利水平降低了。钱更不值钱。</li>
+</ul>
+<p>GDP 平减指数与消费物价指数的差异：</p>
+<ul>
+<li>GDP 平减指数反映国内生产的所有物品与服务的价格，而消费者物价指数反映消费者购买的所有物品与服务的价格。</li>
+<li>如何对各种价格进行加权。</li>
+</ul>
+<p>比较不同时期的美元数字：</p>
+<ul>
+<li>指数化：根据法律或合同按照通货膨胀的影响对货币数量的自动调整。</li>
+<li>名义利率：通常公布的、未根据通货膨胀的影响校正的利率。</li>
+<li>真实利率：根据通货膨胀的影响校正过的利率。</li>
+</ul>
+<p>真实利率 = 名义利率 - 通货膨胀率</p>
+<h1 id="第-9-篇-长期中的真实经济"><a href="#第-9-篇-长期中的真实经济" class="headerlink" title="第 9 篇 长期中的真实经济"></a>第 9 篇 长期中的真实经济</h1><p>这几章描述了长期中决定关键真实变量的力量，这些变量包括 GDP 的增长、储蓄、投资、真实利率和失业。</p>
+<h2 id="第-25-章-生产与增长"><a href="#第-25-章-生产与增长" class="headerlink" title="第 25 章 生产与增长"></a>第 25 章 生产与增长</h2><ul>
+<li>生产率：每单位劳动投入所生产的物品和服务的数量。</li>
+<li>物质资本（physical capital)：用于生产物品与服务的设备和建筑物存量。<ul>
+<li>它是一种<strong>生产出来</strong>的生产要素。</li>
+<li>它是生产过程的投入，也是过去生产过程的产出。</li>
+</ul>
+</li>
+<li>人力资本（human capital）：工人通过教育、培训和经验而获得的知识与技能。<ul>
+<li>要求教师、图书馆和学生时间等形式的投入。</li>
+<li>可以把学生看作“工人”，他们的重要工作就是生产将用于未来生产的人力资本。</li>
+</ul>
+</li>
+<li>自然资源（natural resources)：由自然界提供的用于生产物品与服务的投入。</li>
+<li>技术知识（technological knowledge）：社会对生产物品与服务的最好方法的了解。</li>
+</ul>
+<p>区分技术知识和人力资本是有必要的。技术知识是指社会对世界如何运行的理解，人力资本是指把这种理解传递给劳动力的资源消耗。工人的生产率既取决于人们可以得到的教科书的<strong>质量</strong>（知识），又取决于他们用来阅读教科书的<strong>时间量</strong>（把知识传递给劳动力）。</p>
+<ul>
+<li>收益递减：随着投入量的增加，每一单位额外投入得到的收益减少的特性。<ul>
+<li><strong>在长期中，高储蓄率引起高水平的生产率和收入，但在这些变量中并没有高增长。</strong></li>
+</ul>
+</li>
+<li>追赶效应：开始时贫穷的国家倾向于比开始时富裕的国家增长更快的特征。</li>
+</ul>
+<p>发达国家的人们往往把产权视为理所当然的，而那些生活在欠发达国家的人们也明白缺乏产权会是一个严重问题。在较为极端的情况下，政府不仅不能保护产权，而且实际上还侵犯产权。在一些国家中，企业为了进行经营，需要贿赂有权的政府官员。这种腐败阻碍了市场的协调能力，它还抑制了国内储蓄和来自国外的投资。</p>
+<p>经济繁荣部分取决于<strong>政治繁荣</strong>。一个拥有<strong>有效的法院体系、忠诚的政府官员和稳定的政治局势</strong>的国家享有的生活水平将高于缺乏这些的国家。</p>
+<blockquote>
+<p>文中提到，马尔萨斯在《人口论》中基于两个论点推出结论“人口的力量永远大于地球上生产维持人类生存的必需品的力量”。<br>但第二个论点“两性间的性欲是必然的，且将几乎保持现状”，我不是很认同。在某一块土地上，LGBT 极左思想泛滥。而且马尔萨斯并不知道，在未来出现过暴力机器对人口发起的战争。</p>
+</blockquote>
+<h1 id="第-10-篇-长期中的货币与物价"><a href="#第-10-篇-长期中的货币与物价" class="headerlink" title="第 10 篇 长期中的货币与物价"></a>第 10 篇 长期中的货币与物价</h1><p>在决定物价水平、通货膨胀率和其他名义变量的长期行为时，货币制度至关重要。</p>
+<h1 id="第-11-篇-开放经济的宏观经济学"><a href="#第-11-篇-开放经济的宏观经济学" class="headerlink" title="第 11 篇 开放经济的宏观经济学"></a>第 11 篇 开放经济的宏观经济学</h1><p>用贸易金额、国外净投资和汇率描述了一国与其他国家的交易。</p>
+<p>开放经济的长期模型解释了决定贸易余额、真实汇率和其他真实变量的因素。</p>
+<h1 id="第-12-篇-短期经济波动"><a href="#第-12-篇-短期经济波动" class="headerlink" title="第 12 篇 短期经济波动"></a>第 12 篇 短期经济波动</h1><p>总需求与总供给模型解释了短期经济波动、货币政策和财政政策的短期效应，以及真实变量和名义变量之间的短期联系。</p>
+<h1 id="第-13-篇-最后的思考"><a href="#第-13-篇-最后的思考" class="headerlink" title="第 13 篇 最后的思考"></a>第 13 篇 最后的思考</h1><p>最后一章提出了在经济政策六个主要争论问题上争论双方的观点。</p>
+]]></content>
+      <categories>
+        <category>书籍</category>
+      </categories>
+      <tags>
+        <tag>阅读与记录</tag>
+        <tag>在读</tag>
+        <tag>经济学</tag>
+      </tags>
+  </entry>
 </search>
