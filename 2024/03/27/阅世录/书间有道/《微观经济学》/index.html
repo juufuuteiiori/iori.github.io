@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="儒烏風亭いおり">
+    
+    <title>
+        
+            《微观经济学》 |
+        
+        いおり的博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#9966FF","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","font_size":null,"font_family":null,"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/らでんさん.4ckr96h8ih.webp","description":"更健康，更长久","font_color":null,"hitokoto":{"enable":false}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default","code_block_collapse":true},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":null,"version":2}},"post":{"img_align":"center","word_count":{"enable":true,"wordcount":true,"min2read":false},"author_label":{"enable":false},"auto":false,"custom_label_list":[]},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                </a>
+            
+            <a class="logo-title" href="/">
+               いおり的博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">《微观经济学》</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">儒烏風亭いおり</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2024-03-27 11:00:00</span>
+        <span class="mobile">2024-03-27 11:00</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2025-08-26 22:18:35</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E9%98%85%E4%B8%96%E5%BD%95/">阅世录</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/">书间有道</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%BB%8F%E6%B5%8E%E4%B8%8E%E5%95%86%E4%B8%9A/">经济与商业</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>9.3k 字</span>
+        </span>
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h1 id="序言"><a href="#序言" class="headerlink" title=" 序言"></a><span id="more"></span> 序言</h1><p>有些记不清最开始为什么会打开这本书，阅读也是断断续续的。要说有些什么收获，也确实零零散散，说不出个一二三。但要说没有收获，那也不至于。</p>
+<p>在第一遍读完之后，我再次打开前言，看到上面（iPad MarginNote 3）还有做的笔记，有些惊讶。划线的第一句话是，“经济学是一门研究人类一般生活事务的学问。”这句话出自 19 世纪伟大的经济学家阿尔弗雷德·马歇尔。我在“一般生活事务”上画了个圈，在此之前我简单以为经济学就是和钱挂钩。书中给出了学习经济学的三个原因：它有助于你理解你所生活在其中的世界；它将使你更精明地参与经济；它将使你更好地理解经济政策的潜力与局限性。</p>
+<p>在阅读过程中，我记录了一些定义，写下一些思考，最终整理成这篇博客。我十分推荐你去阅读这本书，它向我展示了一些不一样的视角。</p>
+<h1 id="第-1-篇-导言"><a href="#第-1-篇-导言" class="headerlink" title="第 1 篇 导言"></a>第 1 篇 导言</h1><p>少数几个重要思想指导着经济学的研究。<br>经济学家既可以作为科学家来观察世界，也可以作为决策者来观察世界。<br>比较优势理论解释了人们如何从经济上的相互依存性中获益。</p>
+<h2 id="第-1-章-经济学十大原理"><a href="#第-1-章-经济学十大原理" class="headerlink" title="第 1 章 经济学十大原理"></a>第 1 章 经济学十大原理</h2><ol>
+<li>人们面临权衡取舍。</li>
+<li>某种东西的成本是为了得到它所放弃的东西。</li>
+<li>理性人考虑边际量。</li>
+<li>人们会对激励做出反应。</li>
+<li>贸易可以使每个人的状况都变得更好。</li>
+<li>市场通常是组织经济活动的一种好方法。</li>
+<li>政府有时可以改善市场结果。</li>
+<li>一国的生活水平取决于它生产物品与服务的能力。</li>
+<li>当政府发行了过多货币时，物价上升。</li>
+<li>社会面临通货膨胀与失业之间的短期权衡取舍。</li>
+</ol>
+<h2 id="第-2-章-像经济学家一样思考"><a href="#第-2-章-像经济学家一样思考" class="headerlink" title="第 2 章 像经济学家一样思考"></a>第 2 章 像经济学家一样思考</h2><p>大多数经济学家同意的主张 1.租金上限降低了可得到的住房的数量和质量。（93%） 16.美国不应该禁止转移因作物。（82%） 17.最低工资增加了年轻人和不熟练工人的失业。（79%）</p>
+<blockquote>
+<p>最近开始看 Mankiw 的经济学原理，书中记载了一个调查，关于经济学家的主张。<br>有一些主张不太能理解（例如第 6 点），有一些主张给了一个思考问题的新视角（第 1 点和第 17 点）</p>
+<p>在高中时，一位我十分尊敬的语文老师提过他的看法，判断一个地区的生活水平，不应该看 GDP 有多高，而应该看最低收入。（还是最低工资来着，有一点记不清了）以前没怎么思考过最低工资限制对企业有什么影响，现在想想突然意识到，成本上升就会减少投入，减少雇员，那企业的状态不就会移动到生产可能性边界中的无效率点吗。经济发展就会减缓。</p>
+<p>可如果不限制最低工资，在供大于求，或者说人力过饱和的地方不也会发生恶意压价吗。如果社会环境好的话，需求应该也会上升，供需关系也会逐渐平衡，最后实现充分就业吧。</p>
+<p>经济学十大原理第一条：人们面临权衡取舍。也许以后会对这个问题有一些新想法吧。</p>
+</blockquote>
+<h2 id="第-3-章-相互依存性与贸易的好处"><a href="#第-3-章-相互依存性与贸易的好处" class="headerlink" title="第 3 章 相互依存性与贸易的好处"></a>第 3 章 相互依存性与贸易的好处</h2><p>一位经济学家（Emily Oster）认为，你不应该仅仅因为你比你的配偶更擅长洗碗，就总是负责洗碗。</p>
+<p>经济学十大原理第五条：贸易可以使每个人的状况都变得更好。</p>
+<blockquote>
+<p>第一次接触机会成本、贸易这些概念是在高中一年级的政治课上，当时老师只是简单讲了讲交易双方专注于各自优势并进行贸易，可以让双方的状况都变得更好。但具体原因一直没有思考清楚（其实也是没怎么想过这个问题，不求甚解罢了。。。）</p>
+<p>今天在书上看到了详细的解释，贸易让交易双方的消费可能性边界向外扩展，而不是原来的与生产可能性边界相同。</p>
+</blockquote>
+<h1 id="第-2-篇-市场如何运行"><a href="#第-2-篇-市场如何运行" class="headerlink" title="第 2 篇 市场如何运行"></a>第 2 篇 市场如何运行</h1><p>经济如何协调独立的经济主体？通过供求的市场力量。<br>用供求的工具来考察各种政府政策的效应。</p>
+<h2 id="第-4-章-供给与需求的市场力量"><a href="#第-4-章-供给与需求的市场力量" class="headerlink" title="第 4 章 供给与需求的市场力量"></a>第 4 章 供给与需求的市场力量</h2><p>书中转载了一篇报道《哄抬物价是变相抢劫吗？》，背景是一场自然灾害发生以后（毕竟正常情况下，市场能够自我调节）</p>
+<p>灾难发生后，必需品的供给量减少，而需求量可能会剧增（至少不会大量减少），那应该如何决定哪一位顾客应该得到必需品。<br>抽彩吗？那哄抬物价的人仅仅从商人变成了中签的顾客。<br>有某种配给方案吗，按照家庭需求。问题是，这太困难了，需要巨量计划以及难以达到的知识水平。（这不是什么一拍脑门一拍大腿就能想出来，再一拍屁股走人不管的儿戏。）<br>那简单的先到先得呢。事实上这就是反哄抬物价法所鼓励的事情。会产生囤积。再者，速度能很好地代表公正吗，这并不比另一种价格体系更公正。<br>在极端需求情形下，允许价格上涨限制了过度消费，人们会仔细考虑他们的购买，结果是有更多顾客买得到物品，实际上比反哄抬物价法更能实现较为平等的分配。</p>
+<p>而商人并没有从灾难中获利，而是通过对物价的管理来获利的。扩大了商品的分配范围，限制了囤货居奇，从而产生有益的社会效应。</p>
+<p>反对意见认为，哄抬物价合法化会让富人买得到一切物品，而穷人什么也没有。实际上，就大多数情况而言，并没有使最穷的人无法获得必需品与必须的服务，只是让开支雪上加霜。<br>与其一开始就进行价格管制，通过转移支付来减轻家庭赤字是更有效的解决方案。</p>
+<p>我们应该期待哄抬物价的情况更多一些，但空货架更少些。</p>
+<blockquote>
+<p>我印象中，大流行期间，很多国家都是直接给公民卡里打钱，打很多钱。钱从政府的预算里来，这应该就是转移支付的一种吧？</p>
+<p>虽然美国拜登政府挺烂的，一直印钞票，经济通胀的可怕</p>
+<p>文章里考虑的应该是自由市场，虽然可能不是“完全竞争”，但一定不是“垄断市场”。垄断市场怎么办呢，好像无解</p>
+</blockquote>
+<h2 id="第-5-章-弹性及其应用"><a href="#第-5-章-弹性及其应用" class="headerlink" title="第 5 章 弹性及其应用"></a>第 5 章 弹性及其应用</h2><ul>
+<li>弹性：衡量需求量或供给量对其某种决定因素的变动的反应程度的指标。</li>
+<li>需求价格弹性：衡量一种物品需求量对其价格变动反应程度的指标，用需求量变动百分比除以价格变动百分比来计算。</li>
+<li>需求收入弹性：衡量一种物品需求量对消费者收入变动反应程度的指标，用需求量变动百分比除以收入变动百分比来计算。</li>
+<li>供给价格弹性：衡量一种物品供给量对其价格变动反应程度的指标，用供给量变动百分比除以价格变动百分比来计算。</li>
+</ul>
+<h2 id="第-6-章-供给、需求与政府政策"><a href="#第-6-章-供给、需求与政府政策" class="headerlink" title="第 6 章 供给、需求与政府政策"></a>第 6 章 供给、需求与政府政策</h2><p>对一种物品的征税是在买者支付的价格和卖者得到的价格之间打入的一个楔子。当市场向新均衡变动时，买者为该物品支付的价格高了，而卖者从该物品得到的价格低了。</p>
+<p>从这种意义上说，买者和卖者分摊了税收负担。</p>
+<p>税收归宿（也就是说，税收负担的分摊）并不取决于向买者征税，还是向卖者征税。税收归宿取决于供给和需求的价格弹性。税收负担更多地落在缺乏弹性的市场一方，因为市场的这一方较难通过改变购买量或销售量来对税收做出反应。</p>
+<blockquote>
+<p>书中举了个奢侈品税的例子，1990 年美国国会批准的，1993 年就废除了大部分奢侈品税。因为供给缺乏弹性（工人，企业很难改变生产），而需求富有弹性（旅游，甚至遗产），税收实际大部分归于供给方，而他们并不是富人。</p>
+</blockquote>
+<h1 id="第-3-篇-市场和福利"><a href="#第-3-篇-市场和福利" class="headerlink" title="第 3 篇 市场和福利"></a>第 3 篇 市场和福利</h1><p>为什么供求均衡对整个社会是合意的？消费者和生产者剩余的概念解释了市场的效率、赋税的代价，以及国际贸易的收益。</p>
+<h2 id="第-7-章-消费者、生产者与市场效率"><a href="#第-7-章-消费者、生产者与市场效率" class="headerlink" title="第 7 章 消费者、生产者与市场效率"></a>第 7 章 消费者、生产者与市场效率</h2><ul>
+<li>消费者剩余：买者愿意为一种物品支付的量减去其为此实际支付的量。</li>
+<li>生产者剩余：卖者出售一种物品得到的量减去其生产成本。</li>
+</ul>
+<ol>
+<li>自由市场把物品的供给分配给对这些物品评价最高的买者，这种评价用买者的支付意愿来衡量。</li>
+<li>自由市场将物品的需求分配给能够以最低成本生产这些物品的卖者。</li>
+<li>自由市场生产出使消费者剩余和生产者剩余的总和最大化的物品量。</li>
+</ol>
+<h2 id="第-8-章-应用：赋税的代价"><a href="#第-8-章-应用：赋税的代价" class="headerlink" title="第 8 章 应用：赋税的代价"></a>第 8 章 应用：赋税的代价</h2><ul>
+<li>无谓损失：市场扭曲（例如税收）引起的总剩余减少。</li>
+</ul>
+<h2 id="第-9-章-应用：国际贸易"><a href="#第-9-章-应用：国际贸易" class="headerlink" title="第 9 章 应用：国际贸易"></a>第 9 章 应用：国际贸易</h2><ul>
+<li>世界价格：一种物品在世界市场上通行的价格。</li>
+<li>关税：对在国外生产而在国内销售的物品征收的一种税。</li>
+</ul>
+<h1 id="第-4-篇-公共部门经济学"><a href="#第-4-篇-公共部门经济学" class="headerlink" title="第 4 篇 公共部门经济学"></a>第 4 篇 公共部门经济学</h1><p>市场结果并不总是有效率的，政府有时可以弥补市场失灵。<br>为了给政府的各种计划提供资金，政府通过其税制筹集收入，设计税制要关注效率与平等的平衡。</p>
+<h2 id="第-10-章-外部性"><a href="#第-10-章-外部性" class="headerlink" title="第 10 章 外部性"></a>第 10 章 外部性</h2><p>加税是应对负外部性的一种方法。补贴是应对正外部性的一种方法，</p>
+<p>加税容易定性分析，难以定量分析。在污染治理方面，想要实现某个度量的减少排放，对比矫正税和污染许可证两种方式，后者在实际情况中更容易操作，设置一个限额即可。允许许可证自由交易，让市场去给污染许可证定价。</p>
+<p><strong>当你能对坏东西，比如排污征税时，何必还要向好东西征税呢</strong>？类似于所得税、工薪税、投资税，所得税是真的夸张。</p>
+<ul>
+<li>科斯定理：如果私人各方可以无成本地就资源配置进行协商，那么，他们就可以自己解决外部性问题，并有效地配置资源。</li>
+</ul>
+<p>当私人协商无效时，政府有时可以发挥作用。<strong>政府是为集体行为而设立的一种机构</strong>。</p>
+<h2 id="第-11-章-公共物品和公共资源"><a href="#第-11-章-公共物品和公共资源" class="headerlink" title="第 11 章 公共物品和公共资源"></a>第 11 章 公共物品和公共资源</h2><ul>
+<li>排他性：一种物品具有的可以阻止一个人使用该物品的特性。</li>
+<li>消费中的竞争性：一个人使用一种物品将减少其他人对该物品的使用的特性。</li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>竞争性：是</th>
+<th>否</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>排他性：是</td>
+<td>私人物品 private goods</td>
+<td>俱乐部物品 club goods</td>
+</tr>
+<tr>
+<td>否</td>
+<td>公共资源 common resources</td>
+<td>公共物品 public goods</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>搭便车者 free rider：得到一种物品的利益但避免为此付费的人。</li>
+</ul>
+<p>评价人的生命价值的一种较好方法是，观察人们自愿冒的危险以及要给一个人多少钱他才愿意冒这种危险。在受教育程度、经验以及其他决定工资的因素不变的情况下，通过比较高风险职业和低风险职业的工资，经济学家就可以在一定程度上得出人们对自己生命的评价。用这种方法研究得出的结论是，一个人生命的价值约为 1000 万美元。</p>
+<p>亚里士多德：“许多人公有的东西总是被关心得最少，因为所有人对自己东西的关心都大于对与其他人共同拥有的东西的关心。”</p>
+<h2 id="第-12-章-税制的设计"><a href="#第-12-章-税制的设计" class="headerlink" title="第 12 章 税制的设计"></a>第 12 章 税制的设计</h2><p>另一些经济学家认为，这种高税率给年轻工作者带来的代价太大了。他们认为，政策制定者应当减少现在对未来老年人做出的承诺，同时鼓励人们在老年时更多地自己照顾自己。这包括提高正常退休年龄，同时给人们更多的在其工作年份进行储蓄的激励，以为自己的退休和医疗费用做好准备。</p>
+<blockquote>
+<p>为什么要做体面人，因为有些游戏体面人只会和体面人一起玩，不体面的人会被排挤在圈子外。</p>
+<p>这些经济学家并没有想到一个“很棒”的方法：做出承诺，接着是“历史文件不具有法律效应。”</p>
+</blockquote>
+<p>如果政府对劳动收入征税，人们就会少工作而多享受闲暇。</p>
+<blockquote>
+<p>当税率达到 100% 时会发生什么，历史告诉了我们答案。</p>
+</blockquote>
+<ul>
+<li>税收的一个原则被称为受益原则：认为人们应该根据他们从政府服务中得到的利益来纳税的思想。</li>
+<li>支付能力原则：认为应该根据一个人可以承受的负担来对这个人征税的思想。</li>
+</ul>
+<hr>
+<ul>
+<li>纵向平等：主张支付能力更强的纳税人应该缴纳更多税收的思想。<ul>
+<li>比例税：高收入纳税人和低收入纳税人缴纳收入中相同比例的税收。</li>
+<li>累退税：高收入纳税人缴纳的税收在收入中的比例低于低收入纳税人的这一比例。</li>
+<li>累进税：高收入纳税人缴纳的税收在收入中的比例高于低收入纳税人的这一比例。</li>
+</ul>
+</li>
+<li>横向平等：主张有相似支付能力的纳税人应该缴纳等量税收的思想。</li>
+</ul>
+<blockquote>
+<p>从经济学十大原理之一的“人们会对激励做出反应”考虑，我比较支持累退税，再次是比例税。</p>
+<p>我可以理解纵向平等，但一个人努力使自己的收入提升，税收的比例也跟着提升，这多少有点过意不过去吧。然而美国在过去一直是累进税。</p>
+</blockquote>
+<h1 id="第-5-篇-企业行为与产业组织"><a href="#第-5-篇-企业行为与产业组织" class="headerlink" title="第 5 篇 企业行为与产业组织"></a>第 5 篇 企业行为与产业组织</h1><p>企业理论阐明了竞争市场供给背后的决策。<br>有市场势力的企业会使市场结果无效率。</p>
+<h2 id="第-13-章-生产成本"><a href="#第-13-章-生产成本" class="headerlink" title="第 13 章 生产成本"></a>第 13 章 生产成本</h2><ul>
+<li>经济利润：总收益减总成本，包括显性成本与隐性成本。</li>
+<li>会计利润：总收益减总显性成本。</li>
+</ul>
+<hr>
+<ul>
+<li>固定成本：不随着产量变动而变动的成本。</li>
+<li>可变成本：随着产量变动而变动的成本。</li>
+<li>有效规模：使平均总成本最小的产量。</li>
+</ul>
+<hr>
+<ul>
+<li>随着产量增加，边际成本最终会上升。</li>
+<li>平均总成本曲线是 U 形的。</li>
+<li>边际成本曲线与平均总成本曲线在平均总成本曲线的最低处相交。</li>
+</ul>
+<hr>
+<ul>
+<li>规模经济：长期平均总成本随产量增加而减少的特性。</li>
+<li>规模不经济：长期平均总成本随产量增加而增加的特性。</li>
+<li>规模收益不变：长期平均总成本在产量变动时保持不变的特性。</li>
+</ul>
+<h2 id="第-14-章-竞争市场上的企业"><a href="#第-14-章-竞争市场上的企业" class="headerlink" title="第 14 章 竞争市场上的企业"></a>第 14 章 竞争市场上的企业</h2><ul>
+<li>竞争市场：有许多交易相同产品的买者与卖者，以至于每一个买者与卖者都是价格接受者的市场。</li>
+</ul>
+<p>竞争企业的短期供给曲线是边际成本曲线位于<strong>平均可变成本曲线</strong>之上的那一部分。长期供给曲线是边际成本曲线位于<strong>平均总成本曲线</strong>之上的那一部分。</p>
+<p>假设每个人都可以获得生产该种物品的相同技术，并可以进入同一个市场购买生产所需的投入品。因此，所有企业和潜在企业都有相同的成本曲线。对于这类市场，如果现有企业盈利，新企业就有进入市场的激励。相反，如果市场上的企业有亏损，那么一些现有企业将会退出市场。<strong>在这种进入和退出过程结束时，仍然留在市场中的企业的经济利润必定为零。</strong></p>
+<p>但是会计利润是正的，等于其隐性成本。</p>
+<h2 id="第-15-章-垄断"><a href="#第-15-章-垄断" class="headerlink" title="第 15 章 垄断"></a>第 15 章 垄断</h2><p>垄断企业是一种没有相近替代品的产品的唯一卖者的企业。垄断产生的基本原因是<strong>进入壁垒</strong>，而进入壁垒有三个主要原因：</p>
+<ul>
+<li>垄断资源：我有，你没有</li>
+<li>政府管制：资本并不可憎，如果它没有<strong>糟糕的</strong>权力撑腰。</li>
+<li>生产流程：你有，但我成本更低</li>
+</ul>
+<p>自然垄断：由于一个企业能以低于两个或更多企业的成本向整个市场供给一种物品或服务而产生的垄断。</p>
+<p>价格歧视：以不同价格向不同顾客出售同一种物品的经营做法。</p>
+<ul>
+<li>价格歧视是利润最大化垄断者的一种理性策略。</li>
+<li>价格歧视要求能根据支付意愿划分顾客。<ul>
+<li>某些市场势力会组阻止企业实行价格歧视。</li>
+</ul>
+</li>
+<li>价格歧视可以增进经济福利（总剩余增加），表现为生产者剩余更高，而消费者剩余降低甚至为零。</li>
+</ul>
+<p>政府决策者会用以下四种方式之一来应对垄断问题：</p>
+<ul>
+<li>努力使垄断行业更有竞争性：反托拉斯法</li>
+<li>管制垄断者的行为：产生无谓损失</li>
+<li>把一些私人垄断企业变为公共企业：保证企业良好经营的方法，投票机制不如利润动机可靠。</li>
+<li>不作为：与政策不可避免的不完善性相比，市场失灵的程度相对要小。</li>
+</ul>
+<h2 id="第-16-章-垄断竞争"><a href="#第-16-章-垄断竞争" class="headerlink" title="第 16 章 垄断竞争"></a>第 16 章 垄断竞争</h2><p>不完全竞争：</p>
+<ul>
+<li>寡头：只有少数几个提供相似或相同产品的卖者的市场结构。<br>  寡头市场上的每个企业在选择生产多少以及定价多少时，不仅会考虑它的竞争者怎么做，而且会考虑它的竞争者会对其决策如何做出反应。</li>
+<li>垄断竞争<ul>
+<li>许多卖者</li>
+<li>产品存在差别</li>
+<li>自由进入和退出</li>
+</ul>
+</li>
+</ul>
+<p>设想你问企业这样的问题：“你愿意看到又一位顾客走进你的店门以你现在的价格购买你的物品吗？”</p>
+<ul>
+<li>一个完全竞争企业将回答这无所谓，因为完全竞争企业的价格完全等于边际成本，企业多销售一单位产品中得到的利润为零。</li>
+<li>与此相反，垄断竞争企业总是渴望得到另一个顾客。因为它的价格高于边际成本，以标价多销售出一单位产品就意味着利润增多了。</li>
+</ul>
+<p>垄断竞争市场并不具有完全竞争市场所具有的全部合意的福利特点。也就是说，在垄断竞争下，看不见的兽并不能确保总剩余最大化。</p>
+<p>即使看上去没有什么信息的广告，实际上也会告诉消费者关于产品质量的某些信息。</p>
+<ul>
+<li>企业愿意用大量的钱来做广告，这本身就向消费者传递了一个所提供产品质量的信息。</li>
+<li><strong>信息并不在于广告的内容，而仅仅在于做广告本身与其昂贵的价格。</strong></li>
+</ul>
+<h2 id="第-17-章-寡头"><a href="#第-17-章-寡头" class="headerlink" title="第 17 章 寡头"></a>第 17 章 寡头</h2><ul>
+<li>勾结（collusion）：一个市场上的企业之间就生产的产量或收取的价格达成的协议。</li>
+<li>纳什均衡（Nash equilibrium）：相互作用的经济主体在假定所有其他主体所选策略为既定的情况下选择他们自己最优策略的状态。</li>
+</ul>
+<p>囚徒困境：</p>
+<ul>
+<li>两个囚犯之间的合作是难以维持的，即使合作使每个参与者的状况变好。因为从个人的角度来看，合作是不理性的。</li>
+<li>但警察可以使更多罪犯认罪伏法。囚徒困境对囚徒来说是一种困境，但对其他每一个人来说是一种福音。</li>
+<li>政治学家 Robert Axelrod 主持的一场多次囚徒困境博弈比赛中，”一报还一报“的简单策略比人们提交的所有更复杂的策略都好。</li>
+</ul>
+<p>反托拉斯政策的争议：</p>
+<ul>
+<li>转售价格维持：<strong>看起来减少竞争的经营做法实际上可能有其合理的目的</strong>。</li>
+<li>掠夺性定价：美团公司的外卖价格补贴战似乎是一个很好的例子。不停的融资+烧钱，扩大市场份额，当竞争对手只剩下一两家后，镰刀就挥向商家、骑手、客户。</li>
+<li>搭售：1998 年美国司法部对微软提起诉讼。中心问题为是否应该允许微软把它的互联网游览器与 Windows 操作系统捆绑起来销售。这就是 Edge 游览器这么难用的原因之一？</li>
+</ul>
+<p>没有起码的一些勾结活动，体育联盟就无法存在。正如经济学家、诉讼顾问 Andy Schewarz 指出的：”如果钢铁公司聚在一起决定在什么时候和什么地方生产钢铁，这就违反了反托拉斯法。但是，如果一个联盟的运动队聚在一起决定在什么时候和什么地方进行比赛，这一般是被允许的。“</p>
+<h1 id="第-6-篇-劳动市场经济学"><a href="#第-6-篇-劳动市场经济学" class="headerlink" title="第 6 篇 劳动市场经济学"></a>第 6 篇 劳动市场经济学</h1><p>这几章考察了劳动市场的特点，大多数人在劳动市场上赚到了自己的大部分收入。</p>
+<h2 id="第-18-章-生产要素市场"><a href="#第-18-章-生产要素市场" class="headerlink" title="第 18 章 生产要素市场"></a>第 18 章 生产要素市场</h2><ul>
+<li>生产要素：用于生产物品与服务的投入。</li>
+<li>边际产量值：一种投入的边际产量乘以该产品的价格。</li>
+<li>资本：用于生产物品与服务的设备和建筑物。</li>
+</ul>
+<p>一个竞争性的、利润最大化的企业，雇用的工人数要达到使劳动的边际产量值等于工资的那一点，边际产量值曲线也是劳动需求曲线。</p>
+<p>新古典分配理论：</p>
+<ul>
+<li>生产要素的报酬取决于该要素的供给与需求。</li>
+<li>需求又取决于某种要素的边际产量。</li>
+<li>在均衡时，劳动、土地和资本各自赚到了它们在生产过程中的边际贡献的价值。</li>
+<li>在现实中，市场不一定完美竞争，可能存在垄断、寡头或政府干预，导致要素报酬偏离其边际贡献。</li>
+</ul>
+<h2 id="第-19-章-收入与歧视"><a href="#第-19-章-收入与歧视" class="headerlink" title="第 19 章 收入与歧视"></a>第 19 章 收入与歧视</h2><ul>
+<li>补偿性工资差别：为抵消不同工作的非货币特性而产生的工资差别。</li>
+</ul>
+<p><strong>资本的本质在于它本身是被生产出来的生产要素。</strong></p>
+<ul>
+<li><p>人力资本：对人的投资的积累，如教育和在职培训。</p>
+</li>
+<li><p>工会：与雇主谈判工资和工作条件的工人协会。</p>
+</li>
+<li>罢工：工会有组织地从企业撤出劳动。</li>
+<li><p>效率工资：企业为了提高工人的生产率而支付的高于均衡工资的工资。</p>
+</li>
+<li><p>歧视：对仅仅是种族、民族、性别、年龄或其他个人特征不同的相似个体提供不同的机会。</p>
+</li>
+</ul>
+<p><strong>由于不同群体之间平均工资的差别部分反映了人力资本和工作特性的差别，因此这些差别本身并不能说明劳动市场上到底存在多大歧视。</strong></p>
+<p>在与那些既对赚钱感兴趣又关心歧视的企业的竞争中，只对赚钱感兴趣的企业处于优势地位。因此，没有歧视的企业取代了又歧视的企业。竞争市场以这种方法对雇主歧视进行了自发的矫正。</p>
+<p><strong>竞争市场包含了一种自发矫正雇主歧视的方法。只关心利润的企业进入市场倾向于消除歧视性工资差别。只有在顾客愿意为维持歧视性做法进行支付或政府强制歧视时，竞争市场上的这种工资差别才能持续下去。</strong></p>
+<p>一篇很有趣的新闻摘录：《再谈男性与女性之间的差别：这是一个竞争问题》 Hal R. Varian。<br>里面谈及一篇论文《女性回避竞争而男性过度竞争吗？》。论文作者举行了一次 80 人参与的实验。参与者会继续一轮限时小学数学计算任务，每正确一题，获得一份小报酬。再继续一轮比赛性质的限时小学数学计算任务，（只有赢家）每正确一题，获得一份较大的报酬。参与者只能知道自己的正确数量，而不知道排名。由参与者自己选择第三轮是否要比赛。<br>结论为：“从报酬最大化的角度看，成绩好的女士进入比赛的太少，而成绩差的男士进入比赛的太多。”<br>为什么男士更喜欢比赛呢？也许这是因为他们对自己的能力更有信心。数据支持了这个假说，75%的男士相信他们赢得了每 4 人一组的比赛，而只有 43%的女士认为她们在自己组里是最好的。虽然这两组都过分相信自己的成绩，但男士要自信得多……</p>
+<blockquote>
+<p>我想，我应该会选择比赛。或者说，有什么理由不去相信自己能赢。</p>
+</blockquote>
+<h2 id="第-20-章-收入不平等与贫困"><a href="#第-20-章-收入不平等与贫困" class="headerlink" title="第 20 章 收入不平等与贫困"></a>第 20 章 收入不平等与贫困</h2><ul>
+<li>贫困率：家庭收入低于一个称为贫困线的绝对水平的人口百分比。</li>
+<li>贫困线：由联邦政府根据每个家庭规模确定的一种收入绝对水平，低于这一水平的家庭被认为处于贫困状态。</li>
+<li>实物转移支付：以物品或服务而不是以现金形式给予穷人的转移支付。</li>
+<li>生命周期：在人的一生中有规律的收入变动形式。</li>
+<li>持久收入：一个人的正常收入。</li>
+</ul>
+<blockquote>
+<p>也就是说，依靠当年的收入来恒定一个家庭是否处于贫困状况，与实际情况会有误差。储蓄与借债就是一种削峰填谷的方法。<strong>实际生活水平上的不平等比年收入的不平等要小得多。</strong></p>
+</blockquote>
+<ul>
+<li>功利主义：一种政治哲学，根据这种政治哲学，政府应该选择使社会上所有人总效用最大化的政策。<ul>
+<li>效用：衡量幸福或满足程度的指标。</li>
+</ul>
+</li>
+<li>自由主义：一种政治哲学，根据这种政治哲学，政府应该选择被认为使公正的政策，这种公正要由一位在“无知面纱”后的无偏见观察者来评价。<ul>
+<li>最大最小原则：一种主张，认为政府的目标应该是使社会上状况最差的人的福利最大化。</li>
+<li>社会保险：旨在保护人们规避负面事件风险的政府政策。</li>
+</ul>
+</li>
+<li>自由至上主义：一种政治哲学，根据这种政治哲学，政府应该惩罚犯罪并实行自愿的协定，但不应该进行收入再分配。<ul>
+<li><strong>机会平等比收入平等更重要，只要决定收入分配的过程使正义的，那么分配结果无论如何不平等都是公正的</strong>。</li>
+<li>政府应该落实个人的权力，以确保每个人由同样的发挥自己才能并获得成功的机会。一旦建立了这些游戏规则，政府就没有理由改变由此引起的收入分配。</li>
+</ul>
+</li>
+</ul>
+<p>哲学家罗伯特·诺齐克（Robert Nozick）在他的著作《无政府、国家与乌托邦》中写了下面一段话：</p>
+<p>我们并不是那些从某人那里分到一块蛋糕的孩子，分蛋糕的人可以对自己粗心的切割作最后的弥补。没有任何集中的分配，没有任何个人或群体有权控制所有的资源，来共同决定怎样发放这些资源。每个人得到的东西都是其他人通过交换或作为礼物送给他的。在一个自由社会里，不同的人们控制着不同的资源，新的持有来自于自愿的交换和人们的行动。</p>
+<blockquote>
+<p>我比较偏向但不完全是自由至上主义，机会平等是最重要的，也是最难的。收入平等相比起来就简单多了，只需要大家<strong>每次</strong>一起选出一个分蛋糕的人。</p>
+<p>在机会平等的情况下，交税是合理的，帮助公民摆脱<strong>极端贫困</strong>也是合理的，但是让高收入<strong>普通家庭</strong>交额外税费，向低收入<strong>普通家庭</strong>额外发钱是不合理的。</p>
+</blockquote>
+<ul>
+<li>福利：补贴贫困者收入的政府计划。</li>
+</ul>
+<p>古希腊哲学家柏拉图认为：在一个理想的社会中，最富的人的收入不超过最穷的人的收入的四倍。</p>
+<p>惩罚成功和奖励失败的政策减少了对成功者的激励。越平等地分割蛋糕，蛋糕就会变得越小。这是几乎每一个人都同意的有关收入分配的一个结论。</p>
+<h1 id="第-7-篇-深入研究的论题"><a href="#第-7-篇-深入研究的论题" class="headerlink" title="第 7 篇 深入研究的论题"></a>第 7 篇 深入研究的论题</h1><p>微观经济学中增加的论题包括家庭决策、不对称信息、政治经济学以及行为经济学。</p>
+<h2 id="第-21-章-消费者选择理论"><a href="#第-21-章-消费者选择理论" class="headerlink" title="第 21 章 消费者选择理论"></a>第 21 章 消费者选择理论</h2><ul>
+<li>预算约束线：对消费者可以支付得起的消费组合的限制。</li>
+<li>无差异曲线：一条表示给消费者带来相同满足程度的消费组合的曲线。<ul>
+<li>消费者对较高无差异曲线的偏好大于较低无差异曲线。</li>
+<li>无差异曲线向右下方倾斜。</li>
+<li>无差异曲线不相交。</li>
+<li>无差异曲线凸向原点。</li>
+</ul>
+</li>
+<li>边际替代率：消费者愿意以一种物品交换另一种物品的比率。</li>
+<li>完全替代品：无差异曲线为直线的两种物品。</li>
+<li>完全互补品：无差异曲线为直角形的两种物品。</li>
+<li>正常物品：收入增加引起需求量增加的物品。</li>
+<li>低档物品：收入增加引起需求量减少的物品。</li>
+<li>收入效应：当价格的某种变动使消费者移动到更高或更低无差异曲线时所引起的消费变动。</li>
+<li>替代效应：当价格的某种变动使得消费者沿着一条既定的无差异曲线变动到有新边际替代率的一点时所引起的消费变动。</li>
+</ul>
+<p>可以简单解释这两个效应：</p>
+<ul>
+<li>可乐便宜了，所以我的购买力增加，所以我能买更多的披萨和可乐。（收入效应）</li>
+<li>可乐便宜了，所以我放弃一个披萨能买更多可乐，所以我少买披萨多买可乐。（替代效应）</li>
+</ul>
+<p><strong>收入效应是向更高无差异曲线移动所引起的消费变动；替代效应是沿着无差异曲线变动到有不同边际替代率的一点所引起的消费变动。</strong></p>
+<ul>
+<li>需求定理：一种物品价格上升时，人们对其的购买量减少。</li>
+<li>吉芬物品（Giffen good）：价格上升引起需求量增加的物品。</li>
+</ul>
+<p>19 世纪爱尔兰土豆灾荒时期，土豆实际上是吉芬物品。</p>
+<blockquote>
+<p>我想不出来正常时期有什么是吉芬物品。<br>但在一个特殊时期，好像食物确实是吉芬物品。<br>食物价格上涨，而又无法消费其他物品，于是食物的需求量增加。</p>
+</blockquote>
+<p>储蓄还是消费？</p>
+<ul>
+<li>如果利率上升的替代效应大于收入效应，则储蓄增加，消费减少。</li>
+<li>如果利率上升的收入效应大于利率效应，则储蓄减少，消费增加。</li>
+</ul>
+<p>一些经济学家主张减少对利息和其他资本收入的税收，认为这种政策变化会提高储蓄者可以赚到的税后利率，从而鼓励人们多储蓄。<br>另一些经济学家则认为，由于收入效应与替代效应的相互抵消，这种税收变化可能不会增加储蓄，甚至反而会减少储蓄。</p>
+<h2 id="第-22-章-微观经济学前沿"><a href="#第-22-章-微观经济学前沿" class="headerlink" title="第 22 章 微观经济学前沿"></a>第 22 章 微观经济学前沿</h2><ul>
+<li>道德风险：一个没有受到完全监督的人从事不诚实或不合意行为的倾向。</li>
+<li>代理人：一个为另一个人（称为委托人）完成某种行为的人。</li>
+<li>委托人：让另一个人（成为代理人）完成某种行为的人。</li>
+<li>逆向选择：从无信息一方的角度看，无法观察到的特征组合变为不合意的倾向。</li>
+<li>发信号：有信息的一方向无信息的一方披露自己私人信息所采取的行动。</li>
+<li>筛选：无信息的一方所采取的引起有信息的一方披露信息的行动。</li>
+</ul>
+<p>作为信号的礼物：送礼物的人有不对称信息，选择一项礼物则是 ta 发出的信号。可以肯定，挑选一项礼物而不是直接给现金的行动才能成为一个适当的信号。如果是真爱，选择一件好礼物就不难。如果不爱，找到适当的礼物就较为困难。而送现金表明 ta 甚至懒得去试一试。</p>
+<ul>
+<li>政治经济学：用经济学的分析方法研究政府。</li>
+<li>康多塞悖论：多数原则没有产生可传递的社会偏好。<ul>
+<li>狭义结论：当有两种以上的选择时，确定议程（也就是决定对事项进行投票的顺序）会对民主选举结果有重大影响。</li>
+<li>广义结论：多数投票本身并没有告诉我们社会真正想要什么结果。</li>
+</ul>
+</li>
+<li>阿罗不可能性定理：一个数学结论，它表明在某些假设条件之下，没有一种方案能把个人偏好加总为一组正当的社会偏好。<ul>
+<li>但这个定理并没有说，我们不应该把民主作为政府的形式。它认为，无论社会在把其成员的偏好加总时采用哪一种投票方案，作为一种社会选择机制，它在某些方面都是有缺陷的。</li>
+</ul>
+</li>
+<li>中值选民定理：一个数学结论，表明如果要选民沿着一条线选一个点，而且每个选民都想选离他最偏好的点最近的点，那么，多数原则将选出中值选民最偏好的点。<ul>
+<li>如果两个政党各自努力使自己当选的机会最大化，它们就要使自己的立场接近中值选民。</li>
+<li>少数人的观点不会被过多重视。</li>
+</ul>
+</li>
+</ul>
+<p>多数原则并不是达到考虑到每个人偏好的一种折中，而是只关注正好处在分布中间的那个人。</p>
+<blockquote>
+<p>有些好奇肯尼斯·阿罗（Kenneth Arrow）在《社会选择与个人价值》中，怎么用数学证明的这个定理。假设条件应该是指：确定性、传递性、不相关选择的独立性、没有独裁者。</p>
+</blockquote>
+<ul>
+<li>行为经济学：经济学中将心理学的观点考虑进来的分支学科。<ul>
+<li>赫伯特·西蒙（Herbert Simon）提出，不应该把人作为理性最大化者，而应该作为满意者。</li>
+<li>人们过分自信。</li>
+<li>人们过分重视从现实生活中观察到的细枝末节。</li>
+<li>人们不愿改变自己的观念。</li>
+<li>人们是前后不一致的。……。也许这就是退休金账户如此受欢迎的原因之一：它们制止了人们自己即时满足的欲望。</li>
+</ul>
+</li>
+</ul>
+<p><strong>生活是杂乱的。信息是不完全的，政府是不完善的，人也是不完美的。</strong></p>
+<blockquote>
+<p>2024 年 1 月~2025 年 3 月</p>
+</blockquote>
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/">#书间有道</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E7%BB%8F%E6%B5%8E%E4%B8%8E%E5%95%86%E4%B8%9A/">#经济与商业</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2024/03/27/%E9%98%85%E4%B8%96%E5%BD%95/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/%E3%80%8A%E6%88%91%E4%BB%AC%E4%BB%A8%E3%80%8B/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">《我们仨》</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2024/03/27/%E9%98%85%E4%B8%96%E5%BD%95/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/%E3%80%8A%E5%B0%8F%E7%8E%8B%E5%AD%90%E3%80%8B/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">《The Little Prince》</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BA%8F%E8%A8%80"><span class="nav-text"> 序言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-1-%E7%AF%87-%E5%AF%BC%E8%A8%80"><span class="nav-text">第 1 篇 导言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-1-%E7%AB%A0-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%8D%81%E5%A4%A7%E5%8E%9F%E7%90%86"><span class="nav-text">第 1 章 经济学十大原理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-2-%E7%AB%A0-%E5%83%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%AE%B6%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83"><span class="nav-text">第 2 章 像经济学家一样思考</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-3-%E7%AB%A0-%E7%9B%B8%E4%BA%92%E4%BE%9D%E5%AD%98%E6%80%A7%E4%B8%8E%E8%B4%B8%E6%98%93%E7%9A%84%E5%A5%BD%E5%A4%84"><span class="nav-text">第 3 章 相互依存性与贸易的好处</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-2-%E7%AF%87-%E5%B8%82%E5%9C%BA%E5%A6%82%E4%BD%95%E8%BF%90%E8%A1%8C"><span class="nav-text">第 2 篇 市场如何运行</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-4-%E7%AB%A0-%E4%BE%9B%E7%BB%99%E4%B8%8E%E9%9C%80%E6%B1%82%E7%9A%84%E5%B8%82%E5%9C%BA%E5%8A%9B%E9%87%8F"><span class="nav-text">第 4 章 供给与需求的市场力量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-5-%E7%AB%A0-%E5%BC%B9%E6%80%A7%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8"><span class="nav-text">第 5 章 弹性及其应用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-6-%E7%AB%A0-%E4%BE%9B%E7%BB%99%E3%80%81%E9%9C%80%E6%B1%82%E4%B8%8E%E6%94%BF%E5%BA%9C%E6%94%BF%E7%AD%96"><span class="nav-text">第 6 章 供给、需求与政府政策</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-3-%E7%AF%87-%E5%B8%82%E5%9C%BA%E5%92%8C%E7%A6%8F%E5%88%A9"><span class="nav-text">第 3 篇 市场和福利</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-7-%E7%AB%A0-%E6%B6%88%E8%B4%B9%E8%80%85%E3%80%81%E7%94%9F%E4%BA%A7%E8%80%85%E4%B8%8E%E5%B8%82%E5%9C%BA%E6%95%88%E7%8E%87"><span class="nav-text">第 7 章 消费者、生产者与市场效率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-8-%E7%AB%A0-%E5%BA%94%E7%94%A8%EF%BC%9A%E8%B5%8B%E7%A8%8E%E7%9A%84%E4%BB%A3%E4%BB%B7"><span class="nav-text">第 8 章 应用：赋税的代价</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-9-%E7%AB%A0-%E5%BA%94%E7%94%A8%EF%BC%9A%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93"><span class="nav-text">第 9 章 应用：国际贸易</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-4-%E7%AF%87-%E5%85%AC%E5%85%B1%E9%83%A8%E9%97%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6"><span class="nav-text">第 4 篇 公共部门经济学</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-10-%E7%AB%A0-%E5%A4%96%E9%83%A8%E6%80%A7"><span class="nav-text">第 10 章 外部性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-11-%E7%AB%A0-%E5%85%AC%E5%85%B1%E7%89%A9%E5%93%81%E5%92%8C%E5%85%AC%E5%85%B1%E8%B5%84%E6%BA%90"><span class="nav-text">第 11 章 公共物品和公共资源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-12-%E7%AB%A0-%E7%A8%8E%E5%88%B6%E7%9A%84%E8%AE%BE%E8%AE%A1"><span class="nav-text">第 12 章 税制的设计</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-5-%E7%AF%87-%E4%BC%81%E4%B8%9A%E8%A1%8C%E4%B8%BA%E4%B8%8E%E4%BA%A7%E4%B8%9A%E7%BB%84%E7%BB%87"><span class="nav-text">第 5 篇 企业行为与产业组织</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-13-%E7%AB%A0-%E7%94%9F%E4%BA%A7%E6%88%90%E6%9C%AC"><span class="nav-text">第 13 章 生产成本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-14-%E7%AB%A0-%E7%AB%9E%E4%BA%89%E5%B8%82%E5%9C%BA%E4%B8%8A%E7%9A%84%E4%BC%81%E4%B8%9A"><span class="nav-text">第 14 章 竞争市场上的企业</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-15-%E7%AB%A0-%E5%9E%84%E6%96%AD"><span class="nav-text">第 15 章 垄断</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-16-%E7%AB%A0-%E5%9E%84%E6%96%AD%E7%AB%9E%E4%BA%89"><span class="nav-text">第 16 章 垄断竞争</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-17-%E7%AB%A0-%E5%AF%A1%E5%A4%B4"><span class="nav-text">第 17 章 寡头</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-6-%E7%AF%87-%E5%8A%B3%E5%8A%A8%E5%B8%82%E5%9C%BA%E7%BB%8F%E6%B5%8E%E5%AD%A6"><span class="nav-text">第 6 篇 劳动市场经济学</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-18-%E7%AB%A0-%E7%94%9F%E4%BA%A7%E8%A6%81%E7%B4%A0%E5%B8%82%E5%9C%BA"><span class="nav-text">第 18 章 生产要素市场</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-19-%E7%AB%A0-%E6%94%B6%E5%85%A5%E4%B8%8E%E6%AD%A7%E8%A7%86"><span class="nav-text">第 19 章 收入与歧视</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-20-%E7%AB%A0-%E6%94%B6%E5%85%A5%E4%B8%8D%E5%B9%B3%E7%AD%89%E4%B8%8E%E8%B4%AB%E5%9B%B0"><span class="nav-text">第 20 章 收入不平等与贫困</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-7-%E7%AF%87-%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E7%9A%84%E8%AE%BA%E9%A2%98"><span class="nav-text">第 7 篇 深入研究的论题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-21-%E7%AB%A0-%E6%B6%88%E8%B4%B9%E8%80%85%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA"><span class="nav-text">第 21 章 消费者选择理论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-22-%E7%AB%A0-%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%89%8D%E6%B2%BF"><span class="nav-text">第 22 章 微观经济学前沿</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2022</span> -
+            
+            2025
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">儒烏風亭いおり</a>
+            
+        </div>
+        
+            <script async 
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                
+                
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>

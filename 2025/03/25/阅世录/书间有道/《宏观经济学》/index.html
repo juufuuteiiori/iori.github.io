@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="儒烏風亭いおり">
+    
+    <title>
+        
+            《宏观经济学》 |
+        
+        いおり的博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#9966FF","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","font_size":null,"font_family":null,"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/らでんさん.4ckr96h8ih.webp","description":"更健康，更长久","font_color":null,"hitokoto":{"enable":false}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default","code_block_collapse":true},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":null,"version":2}},"post":{"img_align":"center","word_count":{"enable":true,"wordcount":true,"min2read":false},"author_label":{"enable":false},"auto":false,"custom_label_list":[]},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                </a>
+            
+            <a class="logo-title" href="/">
+               いおり的博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">《宏观经济学》</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">儒烏風亭いおり</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2025-03-25 18:00:00</span>
+        <span class="mobile">2025-03-25 18:00</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2025-12-14 15:10:31</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E9%98%85%E4%B8%96%E5%BD%95/">阅世录</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E7%BB%8F%E6%B5%8E%E4%B8%8E%E5%95%86%E4%B8%9A/">经济与商业</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E5%9C%A8%E8%AF%BB/">在读</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>4.9k 字</span>
+        </span>
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h1 id=""><a href="#" class="headerlink" title=""></a><span id="more"></span></h1><h1 id="第-8-篇-宏观经济学的数据"><a href="#第-8-篇-宏观经济学的数据" class="headerlink" title="第 8 篇 宏观经济学的数据"></a>第 8 篇 宏观经济学的数据</h1><p>用于监测整体经济发展的生产总量和物价总水平。</p>
+<h2 id="第-23-章-一国收入的衡量"><a href="#第-23-章-一国收入的衡量" class="headerlink" title="第 23 章 一国收入的衡量"></a>第 23 章 一国收入的衡量</h2><ul>
+<li>国内生产总值（gross domestic product, GDP）：在某一既定时期一个国家内生产的所有最终物品与服务的市场价值。</li>
+<li>国民生产总值（GNP）：一国永久居民（称为国民）所赚到的总收入。</li>
+<li>国民生产净值（NNP）：一国居民的总收入（GNP）减折旧。<ul>
+<li>折旧：经济中设备和建筑物存量的磨损或损耗。</li>
+</ul>
+</li>
+<li>国民收入：一国居民在物品与服务生产中赚到的总收入。</li>
+<li>个人收入：家庭和非公司制企业得到的收入。</li>
+<li>个人可支配收入：家庭和非公司制企业在完成它们对政府的义务之后剩下的收入。</li>
+</ul>
+<p>GDP（用 Y 表示）被分为四个组成部分：消费（C）、投资（I）、政府购买（G）和净出口（NX）：<code>Y = C + I + G + NX</code></p>
+<ul>
+<li>消费：家庭除购买新住房之外用于物品与服务的支出。</li>
+<li>投资：用于资本设备、存货和建筑物的支出，包括家庭用于购买新住房的支出。</li>
+<li>政府购买：地方、州和联邦政府用于物品与服务的支出。</li>
+<li>净出口：外国人对国内生产的物品的支出（出口）减去国内居民对外国物品的支出（进口）。</li>
+</ul>
+<p>由于真实 GDP 不受价格变动的影响，所以真实 GDP 的变动只反映生产的产量的变动。</p>
+<ul>
+<li>名义 GDP：按现期价格评价的物品与服务的生产。</li>
+<li>真实 GDP：按不变价格评价的物品与服务的生产。</li>
+<li>GDP 平减指数：用名义 GDP 与真实 GDP 的比率乘以 100 计算的物价水平衡量指标。</li>
+<li>通货膨胀率（指标 1）：相邻两年的 GDP 平减指数上升比率。</li>
+</ul>
+<p>罗伯特·肯尼迪（Robert Kennedy）在 1968 年竞选总统时，说了这么一番话以批评 GDP 这种经济衡量指标：（国内生产总值）并没有考虑到我们孩子的健康、他们的教育质量，或者他们做游戏的快乐。它也没有包括我们的诗歌之美和婚姻的稳定，以及我们关于公共问题争论的智慧和我们公务员的廉正。它既没有衡量我们的勇气、我们的智慧，也没有衡量我们对祖国的热爱。简言之，它衡量一切，但并不包括使我们的生活有意义的东西；它可以告诉我们关于美国人的一切，但没有告诉我们为什么我们以做一个美国人而骄傲。</p>
+<p>GDP 没有直接衡量这些使生活有意义的东西，但它确实衡量了我们获得过上这份有意义生活的许多投入的能力。但是 GDP 没有衡量对美好生活做出贡献的某些东西，几乎未包括所有在市场之外进行的活动的价值，没有包括环境质量，也没有涉及收入分配。</p>
+<p>就大多数情况——但不是所有情况——而言，GDP 是衡量经济福利的一个好指标。重要的是，要<strong>记住 GDP 包括了什么，而又遗漏了什么</strong>。</p>
+<p>但用 GDP 来衡量政策是否成功远远未尽如人意。每人每周工作 120 小时会极大地抬高一国的人均 GDP，但它绝不会使人们觉得更幸福。取消污染限制会提高每工作小时的 GDP，但这不可能带给我们宜居的世界。</p>
+<h2 id="第-24-章-生活费用的衡量"><a href="#第-24-章-生活费用的衡量" class="headerlink" title="第 24 章 生活费用的衡量"></a>第 24 章 生活费用的衡量</h2><ul>
+<li>消费物价指数（CPI）：普通消费者所购买的物品与服务的总费用的衡量指标。</li>
+<li>通货膨胀率（指标 2）：从前一个时期依赖物价指数变动的百分比。</li>
+<li>生产物价指数（PPI）：企业所购买的一篮子物品与服务的费用的衡量指标。</li>
+</ul>
+<p>消费物价指数的三个问题：</p>
+<ul>
+<li>替代偏向。消费者对物品与服务的消费结构并不固定，受到价格波动影响。</li>
+<li>新物品的引进。维持同等经济福利水平，费用降低了。钱更值钱。</li>
+<li>无法衡量的质量变动。支付相同的费用，经济福利水平降低了。钱更不值钱。</li>
+</ul>
+<p>GDP 平减指数与消费物价指数的差异：</p>
+<ul>
+<li>GDP 平减指数反映国内生产的所有物品与服务的价格，而消费者物价指数反映消费者购买的所有物品与服务的价格。</li>
+<li>如何对各种价格进行加权。</li>
+</ul>
+<p>比较不同时期的美元数字：</p>
+<ul>
+<li>指数化：根据法律或合同按照通货膨胀的影响对货币数量的自动调整。</li>
+<li>名义利率：通常公布的、未根据通货膨胀的影响校正的利率。</li>
+<li>真实利率：根据通货膨胀的影响校正过的利率。</li>
+</ul>
+<p>真实利率 = 名义利率 - 通货膨胀率</p>
+<h1 id="第-9-篇-长期中的真实经济"><a href="#第-9-篇-长期中的真实经济" class="headerlink" title="第 9 篇 长期中的真实经济"></a>第 9 篇 长期中的真实经济</h1><p>这几章描述了长期中决定关键真实变量的力量，这些变量包括 GDP 的增长、储蓄、投资、真实利率和失业。</p>
+<h2 id="第-25-章-生产与增长"><a href="#第-25-章-生产与增长" class="headerlink" title="第 25 章 生产与增长"></a>第 25 章 生产与增长</h2><ul>
+<li>生产率：每单位劳动投入所生产的物品和服务的数量。</li>
+<li>物质资本（physical capital)：用于生产物品与服务的设备和建筑物存量。<ul>
+<li>它是一种<strong>生产出来</strong>的生产要素。</li>
+<li>它是生产过程的投入，也是过去生产过程的产出。</li>
+</ul>
+</li>
+<li>人力资本（human capital）：工人通过教育、培训和经验而获得的知识与技能。<ul>
+<li>要求教师、图书馆和学生时间等形式的投入。</li>
+<li>可以把学生看作“工人”，他们的重要工作就是生产将用于未来生产的人力资本。</li>
+</ul>
+</li>
+<li>自然资源（natural resources)：由自然界提供的用于生产物品与服务的投入。</li>
+<li>技术知识（technological knowledge）：社会对生产物品与服务的最好方法的了解。</li>
+</ul>
+<p>区分技术知识和人力资本是有必要的。技术知识是指社会对世界如何运行的理解，人力资本是指把这种理解传递给劳动力的资源消耗。工人的生产率既取决于人们可以得到的教科书的<strong>质量</strong>（知识），又取决于他们用来阅读教科书的<strong>时间量</strong>（把知识传递给劳动力）。</p>
+<ul>
+<li>收益递减：随着投入量的增加，每一单位额外投入得到的收益减少的特性。<ul>
+<li><strong>在长期中，高储蓄率引起高水平的生产率和收入，但在这些变量中并没有高增长。</strong></li>
+</ul>
+</li>
+<li>追赶效应：开始时贫穷的国家倾向于比开始时富裕的国家增长更快的特征。</li>
+</ul>
+<p>发达国家的人们往往把产权视为理所当然的，而那些生活在欠发达国家的人们也明白缺乏产权会是一个严重问题。在较为极端的情况下，政府不仅不能保护产权，而且实际上还侵犯产权。在一些国家中，企业为了进行经营，需要贿赂有权的政府官员。这种腐败阻碍了市场的协调能力，它还抑制了国内储蓄和来自国外的投资。</p>
+<p>经济繁荣部分取决于<strong>政治繁荣</strong>。一个拥有<strong>有效的法院体系、忠诚的政府官员和稳定的政治局势</strong>的国家享有的生活水平将高于缺乏这些的国家。</p>
+<blockquote>
+<p>文中提到，马尔萨斯在《人口论》中基于两个论点推出结论“人口的力量永远大于地球上生产维持人类生存的必需品的力量”。<br>但第二个论点“两性间的性欲是必然的，且将几乎保持现状”，我不是很认同。在某一块土地上，LGBT 极左思想泛滥。而且马尔萨斯并不知道，在未来出现过暴力机器对人口发起的战争。</p>
+</blockquote>
+<h2 id="第-26-章-储蓄、投资和金融体系"><a href="#第-26-章-储蓄、投资和金融体系" class="headerlink" title="第 26 章 储蓄、投资和金融体系"></a>第 26 章 储蓄、投资和金融体系</h2><ul>
+<li>金融体系：经济中促使一个人的储蓄与另一个人的投资相匹配的一组机构。</li>
+<li>金融市场：储蓄者可以借以直接向借款者提供资金的金融机构。<ul>
+<li>债券：一种债务证明书。</li>
+<li>股票：企业部分所有权的索取权。</li>
+</ul>
+</li>
+<li>金融中介机构：储蓄者可以借以间接向借款者提供资金的金融机构。<ul>
+<li>银行</li>
+<li>共同基金：向公众出售股份，并用收入来构建买股票与债券资产组合的机构。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>《大学毕业生可作为抵押物》 Luigi Zingales</p>
+</blockquote>
+<p>我感觉这篇文章说得很对，政府为学生贷款担保，贷方没有明智地放贷的激励。因为有一个冤大头做接盘侠，只要放贷出去就是百分百盈利。一个真正自由的市场体制应该是机会平等的，而不是结果平等。为什么要让全体纳税人代替大学教育的受益人支付大学教育的成本。<br>但是现实中没有普遍采取这种做法，问题的关键在什么地方？</p>
+<ul>
+<li>国民储蓄（储蓄）：在用于消费和政府购买后剩下的一个经济中的总收入。</li>
+<li>私人储蓄：家庭在支付了税收和消费之后剩下来的收入。</li>
+<li>公共储蓄：政府在支付其支出后剩下的税收收入。</li>
+<li>预算盈余：税收收入大于政府支出的余额。</li>
+<li>预算赤字：政府支出引起的税收收入短缺。</li>
+</ul>
+<p>假设经济中只有一个金融市场</p>
+<ul>
+<li>可贷资金市场：想储蓄的人借以提供资金、想借钱投资的人借以借贷资金的市场。</li>
+</ul>
+<h2 id="第-27-章-金融学的基本工具"><a href="#第-27-章-金融学的基本工具" class="headerlink" title="第 27 章 金融学的基本工具"></a>第 27 章 金融学的基本工具</h2><ul>
+<li>金融学：研究人们如何在某一时期内做出关于配置资源和应对风险的决策的学科。</li>
+<li>现值：在现行利率产生一定量未来货币所需要的现在货币量。</li>
+<li>终值：在现行利率既定时，现在货币量将带来的未来货币量。</li>
+<li>复利：货币量的积累，利息融入本金进行下一次计算利息。</li>
+</ul>
+<p>效用的递减效应可以得知，大多数人是风险厌恶的。</p>
+<ul>
+<li>风险厌恶：不喜欢不确定性。</li>
+<li>多元化：通过用大量不相关的小风险代替一种风险来降低风险。</li>
+</ul>
+<blockquote>
+<p>人们可以通过打大量的小赌，而不是少量大赌来降低风险。</p>
+</blockquote>
+<p>但我不打赌，我只玩必赢的游戏，或者不玩。</p>
+<ul>
+<li>企业特有风险：只影响一家公司的风险。</li>
+<li>市场风险：影响股市上所有公司的风险。</li>
+<li>基本面分析：为决定一家公司的价值而对其会计报表和未来前景进行的研究。</li>
+<li>有效市场假说：认为资产价格反映了关于一种资产价值的所有公开的、可获得的信息的理论。</li>
+<li>信息有效：以理性方式反映所有可获得的信息的有关资产价格的描述。</li>
+<li>随机游走：一种不可预测的变量变动的路径。</li>
+</ul>
+<blockquote>
+<p>如果让 5000 个人掷 10 次硬币，平均而言有 5 个人 10 次都能掷出正面；这 5 个人可以声称有不寻常的掷硬币技能，但他们要重复这种业绩就有困难了。同样，研究表明，有优异业绩史的共同基金管理者通常没有在以后时期保持这种业绩。</p>
+</blockquote>
+<p>巴菲特认为，这 5 个人中价值投资者的比例会更高一些，并且价值投资者更容易成为这 5 个人中的一位。而共同基金这种东西，是很短视的。投资人看着当下的业绩很糟糕，就会要求撤资。投资人往往还会和共同基金约定，亏损到一个比例后必须止损。<strong>简单一句话说，时间是共同基金管理者的敌人。与之相反的，时间是价值投资者的朋友。</strong></p>
+<blockquote>
+<p>相信市场非理性的人（正确地）指出，很难根据可以改变理性评价的新闻来解释股市的变动方式。相信有效市场假说的人（正确地）指出，要知道对一家公司的正确、理性评价是不可能的，因此，不应该很快地得出任何一种具体评价是非理性的结论。而且，如果市场是非理性的，理性人就应该能利用这个事实，但正如我们在前一个案例研究中所讨论的，胜过市场几乎是不可能的。</p>
+</blockquote>
+<p>这里有两派人持有相反的观点。相信市场非理性的人们认为，基本面新闻很难解释股价变动。相信有效市场的人们认为，无法进行理性判断，所以不能说什么是不理性的行为。</p>
+<p>但答案其实很简单啊，股价短期是投票机（情绪），长期是称重机（理性）。</p>
+<h2 id="第-28-章-失业"><a href="#第-28-章-失业" class="headerlink" title="第 28 章 失业"></a>第 28 章 失业</h2><blockquote>
+<p>在人的一生中，失去工作可能是最悲惨的经济事件。</p>
+</blockquote>
+<p>有一份“睡后收入”是很重要的。</p>
+<blockquote>
+<p>没有一种轻而易举的方法能够既减少经济中的自然失业率，又减轻失业者所遭受的痛苦。</p>
+</blockquote>
+<ul>
+<li>劳动力：既包括就业者又包括失业者的工人总数。</li>
+<li>失业率：劳动力中失业者所占的百分比。</li>
+<li>劳动力参工率：劳动力占成年人口的百分比。</li>
+<li>自然失业率：失业率围绕它而波动的正常失业率。</li>
+<li>周期性失业：失业率对自然失业率的背离。</li>
+<li>丧失信心的工人：想工作但已放弃寻找工作的人。</li>
+</ul>
+<blockquote>
+<p>大多数失业是短期的，而在任何一个既定时间段所观察到的大多数失业又是长期的。</p>
+</blockquote>
+<ul>
+<li>摩擦性失业：由于工人寻找最适合自己嗜好和技能的工作需要时间而引起的失业。</li>
+<li>结构性失业：由于某些劳动市场上可提供的工作岗位数量不足以为每个想工作的人提供工作而引起的失业。</li>
+<li>寻找工作：在工人的嗜好与技能既定时工人寻找适当工作的过程。</li>
+<li>失业保险：当工人失业时为他们提供部分收入保障的政府计划。</li>
+</ul>
+<blockquote>
+<p>失业保险提高了一个经济使每个工人与其最适合的工作相匹配的能力。</p>
+</blockquote>
+<p>但匹配时需要时间，而人们会对激励做出反应。所以客观上失业率会上升，平均失业时长会增加。</p>
+<blockquote>
+<p>The Center for College Affordability and Productivity 的一篇研究说明，将近一半的四年制大学毕业生现在所从事的工作被劳工部认定是不需要大学学历的。</p>
+</blockquote>
+<ul>
+<li>工会：与雇主就工资、津贴和工作条件进行谈判的工人协会。</li>
+<li>集体谈判：工会和企业就就业条件达成一致的过程。</li>
+<li>罢工：工会组织工人从企业撤出劳动。</li>
+</ul>
+<blockquote>
+<p>工会仅仅是一种卡特尔。它之所以无效率，是因为工会的高工资使工会组织的企业的就业降低到有效率的竞争水平之下。它之所以不公平，是因为一些工人的获益是以另一些工人的损失为代价的。</p>
+</blockquote>
+<ul>
+<li>效率工资：企业为了提高工人的生产率而支付的高于均衡水平的工资。</li>
+</ul>
+<blockquote>
+<p>高工资使工人更渴望保持他们的工作，从而给予工人付出最大努力的激励。</p>
+</blockquote>
+<h2 id="第-29-章-货币制度"><a href="#第-29-章-货币制度" class="headerlink" title="第 29 章 货币制度"></a>第 29 章 货币制度</h2><ul>
+<li>货币：经济中人们经常用于向其他人购买物品与服务的一组资产。</li>
+<li>交换媒介：买家在购买物品与服务时给予卖者的东西。</li>
+<li>计价单位：人们用来表示价格和记录债务的标准。</li>
+<li>价值储藏手段：人们可以用来把现在的购买力转变为未来的购买力的东西。</li>
+<li>流动性：一种资产兑换为经济中交换媒介的容易程度。</li>
+<li>商品货币：以有内在价值的商品为形式的货币。</li>
+<li>法定货币：没有内在价值、由政府法令确定作为通货使用的货币。</li>
+<li>通货：公众手中持有的纸币钞票和铸币。</li>
+<li>活期存款：储户可以通过开支票而随时支取的银行账户余额。</li>
+<li>联邦储备：美国的中央银行。</li>
+<li>中央银行：为了监管银行体系和调节经济中的货币量而设计的机构。</li>
+<li>货币供给：经济中可得到的货币量。</li>
+<li>货币政策：中央银行的决策者对货币供给的安排。</li>
+<li>准备金：银行得到但没有贷出去的存款。</li>
+<li>部分准备金银行：只把部分存款作为准备金的银行制度。</li>
+<li>准备金率：银行作为准备金持有的存款比例。</li>
+<li>货币乘数：银行体系用 1 美元准备金所产生的货币量。</li>
+<li>银行资本：银行的所有者投入机构的资源。</li>
+<li>杠杆：将借到的货币追加到用于投资的现有资金上。</li>
+<li>杠杆率：资产与银行资本的比率。</li>
+<li>资本需要量：政府管制确定的最低银行资本量。</li>
+<li>公开市场操作：美联储买卖美国政府债券。</li>
+<li>贴现率：美联储向银行发放贷款的利率。</li>
+<li>法定准备金：关于银行必须根据其存款持有的最低准备金量的规定。</li>
+<li>联邦基金利率：银行向另一家银行进行隔夜贷款时的利率。</li>
+</ul>
+<h2 id="第-30-章-货币增长与通货膨胀"><a href="#第-30-章-货币增长与通货膨胀" class="headerlink" title="第 30 章 货币增长与通货膨胀"></a>第 30 章 货币增长与通货膨胀</h2><ul>
+<li>货币数量论： 一种认为可得到的货币量决定物价水平，可得到的货币量的增长率决定通货膨胀率的理论。</li>
+<li>名义变量：按货币单位衡量的变量。</li>
+<li>真实变量：按实物单位衡量的变量。</li>
+<li>古典二分法：名义变量和真实变量的理论区分。</li>
+</ul>
+<h1 id="第-10-篇-长期中的货币与物价"><a href="#第-10-篇-长期中的货币与物价" class="headerlink" title="第 10 篇 长期中的货币与物价"></a>第 10 篇 长期中的货币与物价</h1><p>在决定物价水平、通货膨胀率和其他名义变量的长期行为时，货币制度至关重要。</p>
+<h1 id="第-11-篇-开放经济的宏观经济学"><a href="#第-11-篇-开放经济的宏观经济学" class="headerlink" title="第 11 篇 开放经济的宏观经济学"></a>第 11 篇 开放经济的宏观经济学</h1><p>用贸易金额、国外净投资和汇率描述了一国与其他国家的交易。</p>
+<p>开放经济的长期模型解释了决定贸易余额、真实汇率和其他真实变量的因素。</p>
+<h1 id="第-12-篇-短期经济波动"><a href="#第-12-篇-短期经济波动" class="headerlink" title="第 12 篇 短期经济波动"></a>第 12 篇 短期经济波动</h1><p>总需求与总供给模型解释了短期经济波动、货币政策和财政政策的短期效应，以及真实变量和名义变量之间的短期联系。</p>
+<h1 id="第-13-篇-最后的思考"><a href="#第-13-篇-最后的思考" class="headerlink" title="第 13 篇 最后的思考"></a>第 13 篇 最后的思考</h1><p>最后一章提出了在经济政策六个主要争论问题上争论双方的观点。</p>
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E7%BB%8F%E6%B5%8E%E4%B8%8E%E5%95%86%E4%B8%9A/">#经济与商业</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E5%9C%A8%E8%AF%BB/">#在读</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2025/03/29/%E9%9A%8F%E7%AC%94/%E6%8A%95%E8%B5%84%E6%A8%A1%E6%8B%9F/%E6%8A%95%E8%B5%84%E6%A8%A1%E6%8B%9F%20Week%205/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">投资模拟 Week 5</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2025/03/23/%E9%9A%8F%E7%AC%94/%E6%8A%95%E8%B5%84%E6%A8%A1%E6%8B%9F/%E6%8A%95%E8%B5%84%E6%A8%A1%E6%8B%9F%20Week%204/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">投资模拟 Week 4</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text"></span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-8-%E7%AF%87-%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E6%95%B0%E6%8D%AE"><span class="nav-text">第 8 篇 宏观经济学的数据</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-23-%E7%AB%A0-%E4%B8%80%E5%9B%BD%E6%94%B6%E5%85%A5%E7%9A%84%E8%A1%A1%E9%87%8F"><span class="nav-text">第 23 章 一国收入的衡量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-24-%E7%AB%A0-%E7%94%9F%E6%B4%BB%E8%B4%B9%E7%94%A8%E7%9A%84%E8%A1%A1%E9%87%8F"><span class="nav-text">第 24 章 生活费用的衡量</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-9-%E7%AF%87-%E9%95%BF%E6%9C%9F%E4%B8%AD%E7%9A%84%E7%9C%9F%E5%AE%9E%E7%BB%8F%E6%B5%8E"><span class="nav-text">第 9 篇 长期中的真实经济</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-25-%E7%AB%A0-%E7%94%9F%E4%BA%A7%E4%B8%8E%E5%A2%9E%E9%95%BF"><span class="nav-text">第 25 章 生产与增长</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-26-%E7%AB%A0-%E5%82%A8%E8%93%84%E3%80%81%E6%8A%95%E8%B5%84%E5%92%8C%E9%87%91%E8%9E%8D%E4%BD%93%E7%B3%BB"><span class="nav-text">第 26 章 储蓄、投资和金融体系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-27-%E7%AB%A0-%E9%87%91%E8%9E%8D%E5%AD%A6%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E5%85%B7"><span class="nav-text">第 27 章 金融学的基本工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-28-%E7%AB%A0-%E5%A4%B1%E4%B8%9A"><span class="nav-text">第 28 章 失业</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-29-%E7%AB%A0-%E8%B4%A7%E5%B8%81%E5%88%B6%E5%BA%A6"><span class="nav-text">第 29 章 货币制度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-30-%E7%AB%A0-%E8%B4%A7%E5%B8%81%E5%A2%9E%E9%95%BF%E4%B8%8E%E9%80%9A%E8%B4%A7%E8%86%A8%E8%83%80"><span class="nav-text">第 30 章 货币增长与通货膨胀</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-10-%E7%AF%87-%E9%95%BF%E6%9C%9F%E4%B8%AD%E7%9A%84%E8%B4%A7%E5%B8%81%E4%B8%8E%E7%89%A9%E4%BB%B7"><span class="nav-text">第 10 篇 长期中的货币与物价</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-11-%E7%AF%87-%E5%BC%80%E6%94%BE%E7%BB%8F%E6%B5%8E%E7%9A%84%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6"><span class="nav-text">第 11 篇 开放经济的宏观经济学</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-12-%E7%AF%87-%E7%9F%AD%E6%9C%9F%E7%BB%8F%E6%B5%8E%E6%B3%A2%E5%8A%A8"><span class="nav-text">第 12 篇 短期经济波动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC-13-%E7%AF%87-%E6%9C%80%E5%90%8E%E7%9A%84%E6%80%9D%E8%80%83"><span class="nav-text">第 13 篇 最后的思考</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2022</span> -
+            
+            2025
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">儒烏風亭いおり</a>
+            
+        </div>
+        
+            <script async 
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                
+                
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="儒烏風亭いおり">
+    
+    <title>
+        
+            小阿尔克纳——宝剑 |
+        
+        いおり的博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#9966FF","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","font_size":null,"font_family":null,"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/らでんさん.4ckr96h8ih.webp","description":"更健康，更长久","font_color":null,"hitokoto":{"enable":false}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default","code_block_collapse":true},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":null,"version":2}},"post":{"img_align":"center","word_count":{"enable":true,"wordcount":true,"min2read":false},"author_label":{"enable":false},"auto":false,"custom_label_list":[]},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                </a>
+            
+            <a class="logo-title" href="/">
+               いおり的博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">小阿尔克纳——宝剑</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">儒烏風亭いおり</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2024-06-28 22:30:00</span>
+        <span class="mobile">2024-06-28 22:30</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2025-07-13 15:45:49</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E5%A1%94%E7%BD%97%E7%89%8C/">塔罗牌</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>10.3k 字</span>
+        </span>
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h1 id=""><a href="#" class="headerlink" title=""></a><span id="more"></span></h1><blockquote>
+<p>牌面解析与牌义推演引用自《塔罗葵花宝典》</p>
+</blockquote>
+<h2 id="宝剑首牌"><a href="#宝剑首牌" class="headerlink" title="宝剑首牌"></a>宝剑首牌</h2><p><img lazyload="" alt="宝剑首牌" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑首牌.51e1afnrf2.webp"></p>
+<h3 id="我的感受"><a href="#我的感受" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>云中伸出一只手，拿着宝剑。</li>
+<li>宝剑上边有一个王冠。两边挂着海草。</li>
+</ul>
+<h3 id="牌面解析"><a href="#牌面解析" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>新挑战 极端 理智 决心</p>
+<p>一只手从云中伸出，紧紧握住宝剑，宝剑穿过皇冠与桂冠，而远方是毫无绿意的尖锐山头，以及灰白空旷的天际。</p>
+<h3 id="牌义推演"><a href="#牌义推演" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>宝剑一和权杖一都是一个行动上的开端，但宝剑的困难度比权杖一更高，可能引致不讨喜的结局，因此要有面对艰难挑战的勇气与心理准备。</li>
+</ul>
+<hr>
+<ul>
+<li>传统上，宝剑代表伤害，而所有的一都是一个开端。因此，宝剑一预示一个新的挑战，可能成功，也可能失败。记住，宝剑一只是一个开端，一种可能。未来究竟要如何发展，掌握在持剑者的手中。</li>
+<li>宝剑一也可以表示极端，以及任何方面的过度迹象，可反思自己是否忘了中庸之道。</li>
+<li>图中的宝剑直立，不偏不倚，显现出理智的中立力量。宝剑通常与风要素相关联，有「理智」、「正义」、「知识」、「心智力量」、「决心」、「公平」等相关牌义，也可以代表某种权威，或是寻求权威的必要。</li>
+<li>在健康的占卜上，宝剑一可表示手术或打针。</li>
+</ul>
+<hr>
+<ul>
+<li>逆位的时候，可能表示外伤。</li>
+<li>逆位置的宝剑一与正位意义相差不大，但是面对挑战时，失败的可能性更大，结果可能更为负面，宜审慎评估。</li>
+<li>不公不义或滥用权力的情况可能出现。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>你最近遇到什么问题或挑战吗？宝剑一是所有一号牌中困难度最大的，同时也是所有宝剑牌中伤害性最小的。 宝剑一正位时显示仍有成功的可能，逆位时情况多半不利，最好不要做。 宝剑一如果出现在牌阵中代表建议的位置，显示你应该运用心智力量，也就是专业知识和理性逻辑分析，来处理问题。必要时甚至需要使用强硬作风。 宝剑一和宝剑国王都代表寻求权威的必要，特别是遭遇法律或医学问题时，请寻求专业人士的协助。</p>
+</blockquote>
+<h2 id="宝剑二"><a href="#宝剑二" class="headerlink" title="宝剑二"></a>宝剑二</h2><p><img lazyload="" alt="宝剑二" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑二.6t705c74b6.webp"></p>
+<h3 id="我的感受-1"><a href="#我的感受-1" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>双目被遮住，身穿蓝色衣服，双手交叉手持两把宝剑，隐世高人的感觉</li>
+<li>月亮只剩月牙，潮水起起落落，幽静与肃杀的感觉</li>
+<li>远方的似乎是沙漠，和权杖有什么关系吗</li>
+</ul>
+<h3 id="牌面解析-1"><a href="#牌面解析-1" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>逃避 拒绝 对立 僵局 紧张</p>
+<p>身穿浅灰长袍的女人坐在灰石凳上，背对着澎湃汹涌、暗礁满布的海洋。她眼蒙白布，双手持剑，在胸前交叉不动。天际高挂一轮新月。</p>
+<h3 id="牌义推演-1"><a href="#牌义推演-1" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>水面代表感情，她表现出全然的逃避与困惑。真相早在那里，却掩耳盗铃。</li>
+<li>宝剑二也是一张有关决定的牌，表示当事人做不出决定，甚或拒绝下决定。</li>
+<li>她双手持剑交叉在胸前，形成一种抗拒的姿态。她有颗封闭的心灵，宁愿否定一切也不愿打开内心。</li>
+<li>宝剑二经常表示双方闹僵、对峙与冷战，「恐怖平衡」与「假性和平」。</li>
+<li>有时候，当事人扮演的角色是对峙双方的中间人，她拒绝站在任何一边，也没有大刀阔斧的解决方案，使得事情成为悬案，迟迟未获解决。</li>
+<li>宝剑二提醒我们，要诚实面对自己的内心情感。无论是什么，要接受，莫逃避；且放松，勿抗拒。把蒙眼布取走，将宝剑放下，事情其实没有那么艰难。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑二逆位，代表当事人较能做出决定，打破僵局，结束紧张，停止抗拒。</li>
+<li>但因海面与礁石移到牌面下方，隐藏的谎言、欺诈可能会付出水面，因此和谐与安宁暂时仍不可得。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>李小姐的朋友告诉她说她的丈夫有了外遇，李小姐非但不相信，还把她朋友骂了一顿，回家之后，发现丈夫衣领上的唇印，还安慰自己说那只是不小心沾到，一方面逃避现实，一方面又心中矛盾，这样的心理，正是宝剑二的写照。 宝剑二出现在环境的位置，显示周遭有某种对峙的情况，可能形成僵局。 宝剑二出现在建议的位置，代表你应该暂时维持中立状态，暂时对险恶的环境置之不理，让僵局抱持现状。</p>
+</blockquote>
+<h2 id="宝剑三"><a href="#宝剑三" class="headerlink" title="宝剑三"></a>宝剑三</h2><p><img lazyload="" alt="宝剑三" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑三.7ljvn2nq16.webp"></p>
+<h3 id="我的感受-2"><a href="#我的感受-2" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>三把宝剑交错刺穿一颗心。</li>
+<li>好像在下雨，天空也哭泣</li>
+<li>宝剑没有主人，心也没有。有可能是自己伤害自己</li>
+</ul>
+<h3 id="牌面解析-2"><a href="#牌面解析-2" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>悲伤 失落 延迟</p>
+<p>映入眼帘的是一幅令人痛苦的画面。即使是完全没有接触过塔罗牌的朋友，也可以轻易道出宝剑三的涵义 ── 伤心。三把剑合力刺进一颗鲜红的心，背景是灰暗的雨和云。某些版本的塔罗牌给这张牌一个更直接的名称，叫做「悲伤」。</p>
+<h3 id="牌义推演-2"><a href="#牌义推演-2" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>这张牌的课题就是「接受你的悲伤，并且安然度过」，它就会转化为成长的力量。幻灭是成长的开始。接受身旁的人给予的帮助与关怀，可以让你不至于钻牛角尖。</li>
+<li>宝剑三还表示失落、孤立、痛苦、分离。</li>
+<li>宝剑三只是诚实地描述心碎的模样，并没有描述疗伤的过程﹔也就是说，当事人可能在情感上受了伤，却看不开、放不下，沉溺在自怜自伤的情绪中，导致伤口迟迟无法痊愈。</li>
+<li>在健康方面，可能代表受伤或手术，同样有伤口等待时间让它痊愈。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑三其它的涵义还有延迟、缺席。逆位置仍然具有正位的意义，不过多了几项可能的附加意义：第一，伤心的是对方。第二，该痊愈了，当事人却仍沉浸于悲伤中，不愿接受别人帮助，因而难以痊愈。第三，伤心的程度没有正位那么严重。</li>
+<li>伟特指出宝剑三逆位可能表示「心理上的孤立」，这也许说明了第二项解释的理由，因为把自己封闭起来，因为对其他人提供的帮助视而不见。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>请将宝剑三和宝剑六、圣杯五、宝剑九拿出来对照，同样都是悲伤失望的负面情绪，它们之间却有些微差异。宝剑三是受到伤害的当下，宝剑六是伤害过后的忧郁及疗伤的过程，圣杯五强调失落的悲伤，宝剑九则强调噩梦般的折磨或悔恨。 宝剑三出现在建议的位置，经常让人错愕。其实它是建议你，要痛就彻底的痛一回，不要压抑悲伤的情绪，将事情彻底了断，悲伤也有它的作用。另一方面也可能建议你延期或请假。</p>
+</blockquote>
+<h2 id="宝剑四"><a href="#宝剑四" class="headerlink" title="宝剑四"></a>宝剑四</h2><p><img lazyload="" alt="宝剑四" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑四.1e8hmwryxb.webp"></p>
+<h3 id="我的感受-3"><a href="#我的感受-3" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>躺平的人，好像不太警戒周围。肤色很奇怪</li>
+<li>墙上挂着三把宝剑，身边放着一把。</li>
+<li>墙上的窗子有画着画的样子</li>
+</ul>
+<h3 id="牌面解析-3"><a href="#牌面解析-3" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>休息 消极 沉思 准备 隐遁</p>
+<p>图中的男人在类似修道院的建筑物内休息，双手合抱胸前，呈现安详的状态。彩绘玻璃表现一个祈祷者跪在圣母面前的画面，好像在寻求什么建议，以获得内心的宁静。三把宝剑挂在墙上不用，但他身旁仍保有一把宝剑，当他醒来，随时可以拿起宝剑来采取行动。</p>
+<h3 id="牌义推演-3"><a href="#牌义推演-3" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>宝剑四没有其它宝剑牌那样的混乱不堪，它通常是一张代表消极不动的牌，但并非全然无为（注意他手边的剑！）。</li>
+<li>当宝剑四出现的时候，通常代表当事人正处于一种休息的状态，或是他需要慢下生活步调，好好休息一阵，然后重新出发。</li>
+<li>而在休息的过程中，当事人注意的重心会由外在世界转向内在心灵，独处的时间也增加了，因此这也是张「充电」的牌。</li>
+<li>抽到宝剑四的时候，要提醒自己切勿急躁，凡事细细想，慢慢来，是有好处的。所谓「休息是为了走更长远的路」，正是宝剑四的核心意义。</li>
+<li>在健康的占卜中，宝剑四可能代表住院。</li>
+</ul>
+<hr>
+<ul>
+<li>逆位置的宝剑四比正位置的积极，通常当事人能在较短的时间内休息妥当，获得精力，并且已思考充分，准备继续投入生活，达成未完的事物。</li>
+<li>健康方面，如果先前生病了，宝剑四逆位表示即将康复；如果不是，则可能表示无非充分休息，通常是睡眠方面的障碍。</li>
+<li>宝剑四与钱币七、圣杯四、吊人、隐士、女祭司等静态的牌都有异曲同工之妙。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>老张是个生活繁忙的业务员，平日压力很大，长期下来似乎得到了职业倦怠，这时候他决定放自己一个礼拜的假，什么都不做，就是待在家里独处，这就是宝剑四的写照。 过去你可能遭遇一段不太好受的生活，现在可以暂时休息，充电一下。 宝剑四出现在牌阵中代表环境的位置，显示目前处于休兵状态，可以暂时松一口气。 宝剑四和隐士在感情方面的占卜上，都有隐遁的意义。此事你需要更多独处的时间与空间，也可能正在重新衡量这段感情。</p>
+</blockquote>
+<h2 id="宝剑五"><a href="#宝剑五" class="headerlink" title="宝剑五"></a>宝剑五</h2><p><img lazyload="" alt="宝剑五" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑五.wifybqlcg.webp"></p>
+<h3 id="我的感受-4"><a href="#我的感受-4" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>三人分崩离析，正面的这个似乎在桀桀桀的笑。</li>
+<li>正面的人手持三把宝剑，另外两人的宝剑掉在了地上，向海边走去。</li>
+</ul>
+<h3 id="牌面解析-4"><a href="#牌面解析-4" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>无谓的胜利 自私 失落 争执 屈辱</p>
+<p>红发的男子右手抱着两把剑，左手拄着另一把，回头注视远方两个失败者，嘴角似乎带着微笑。很明显的，他们刚结束一场争执，也许暴力相向。地上还散落着两把剑。另外两人中，一人怅然离去，一人用手摀着脸，似乎难以接受，或者感到伤心羞辱。天空中被风吹散的云彷佛也在说着他们争执的故事，看来很不宁静。</p>
+<h3 id="牌义推演-4"><a href="#牌义推演-4" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>宝剑五也是一张代表争执的牌，与权杖五相当类似，但重点不同。宝剑的伤害性比权杖更强，</li>
+<li>权杖五是一群人僵持不下的画面，胜负尚未分晓，起码是个公平的竞赛，每个人都还很努力要获得胜利。</li>
+<li>宝剑五的场景在争执结束之后，结局却是谁也没得到好处，赢的人表面得意，骨子里失去的更多，输的人心中黯然，甚至感到丢脸屈辱而掩面哭泣。在过程中很可能不知不觉伤害他人。很可能有人会刻意伤害对方，甚至不择手段，以赢得最后的胜利。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑五的主角，这位血气方刚的男子，刚刚获得胜利，他看来很得意，却不知这场胜利并没有任何好处，这是损人不利己的行为。他展现出自私的胸怀，还有不能为他带来好处的野心。</li>
+<li>宝剑五在占卜上，可能表示得到胜利，不过这场胜利却没有什么好处，只是无谓的胜利罢了。</li>
+<li>宝剑五也可以代表敌意。当宝剑五出现时，需审视周遭有没有对你怀有敌意的人，对你做出伤害性的行为。这种伤害不一定是身体上的，光是谣言就形同利刃。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑五逆位的意义与正位类似，但是失败的机率较大，当事人很可能扮演途中远方失败者的角色。失败、屈辱、受害的状况都有可能发生。</li>
+<li>也有人将宝剑五逆位解为从自私的行为中解脱出来、停止无谓的争执、不再被谣言困扰等。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>宝剑五出现，显示目前的争执是损人不利己的，请立即停止，为自己保留一点风度。 宝剑五的胜利，赢得不光彩，也没有实质上的益处。 正位时当事人通常争胜，逆位时则扮演失败的一方。</p>
+</blockquote>
+<h2 id="宝剑六"><a href="#宝剑六" class="headerlink" title="宝剑六"></a>宝剑六</h2><p><img lazyload="" alt="宝剑六" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑六.7w6pg82y6e.webp"></p>
+<h3 id="我的感受-5"><a href="#我的感受-5" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>落魄、流浪的感觉。可能是经历了什么糟糕的事情。</li>
+<li>小船在往岸边前进，流浪的生活快要结束，马上就是新的开始</li>
+</ul>
+<h3 id="牌面解析-5"><a href="#牌面解析-5" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>忧郁 疗伤 痊愈 旅行</p>
+<p>一艘小船上插着六把宝剑，船上有一个女人、一个小孩与一位船夫。船缓缓的朝远方的岸边前进，而此端的水汹涌，彼方的水平静。</p>
+<p>象征伤害的六把剑插在船身上，以及三个主角哀伤的背影，构成宝剑六缓慢低回的基调。沉重的剑身让船夫只能缓行，疗伤的过程亦同。</p>
+<p>但是我们不能把宝剑抽起，否则船会沉，正如我们不能把过去的哀伤连根拔起，只能轻轻的抚平。也许你该庆幸，这些宝剑并不能使船沉没。</p>
+<h3 id="牌义推演-5"><a href="#牌义推演-5" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>宝剑六没有宝剑三或是宝剑九、宝剑十那样怵目惊心的意象，也没有宝剑五那样令人不悦的冲突，有的只是淡淡的忧郁。事情不很糟，但也不很好，环绕当事人的是低落与微微的沮丧。</li>
+</ul>
+<hr>
+<ul>
+<li>也许你想掉泪，却哭不出来；也许你想故作坚强，但眼泪这时又不听使唤的纷纷落下。或许，你可以学牌中披着斗篷的主角，把自己藏起来，隔绝在人群外，然后慢慢疗伤。</li>
+<li>这是受伤后康复的过程，不管伤多重，总是能痊愈。水象征情绪，这端汹涌的水是你烦扰的过去，前方大片平静的水面，预示未来安详的情绪。船夫手持黑色长篙，黑色象征潜力，将来什么都还是可能发生，不要将自己困死了。</li>
+<li>宝剑六是一个通道，领你向未来的幸福快乐前进，光明的日子就在前方。</li>
+<li>宝剑六另外一个重要的意义是旅行，特别是与水有关的旅行。例如海滩、河边、小舟、游轮。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑六逆位，汹涌的水就跑到上头了，表示未来有更多艰难。当事人迟迟无法痊愈、不肯接受帮助、钻牛角尖或是遇到更多困难。</li>
+<li>宝剑倒插可能会掉落，船恐怕会因此沉没。</li>
+<li>宝剑六逆位反而可能代表沟通与揭示。正位的时候主角把自己藏起来与世界隔绝，逆位时反而会主动揭露心事。将过去的伤痛说出可能导致痛苦，但也可能是痊愈的开端。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊<br>宝剑六出现在牌阵中代表建议的位置，表示你应该要从伤痛中一步一步走出来，过程可能漫长，但一定要付出行动。 「解决问题」也是宝剑六的牌义之一，看看被宝剑插满的船只缓行的意象，就像一步步解决问题的过程。 塔罗牌中代表旅行的牌有很多，意义各不相同。宝剑六代表与水有关的旅行，你还能找出几张代表旅行的牌，并指出它们的不同。</p>
+</blockquote>
+<h2 id="宝剑七"><a href="#宝剑七" class="headerlink" title="宝剑七"></a>宝剑七</h2><p><img lazyload="" alt="宝剑七" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑七.1ovbg2772g.webp"></p>
+<h3 id="我的感受-6"><a href="#我的感受-6" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>我凑，小偷。拿了五把宝剑，还望着那两把。</li>
+<li>背后有三个阴影，好像在庆祝</li>
+</ul>
+<h3 id="牌面解析-6"><a href="#牌面解析-6" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>欺诈 孤立 尝试 自信</p>
+<p>图中的男子身处军营中，趁着远方敌人炊饭没有防备时，悄悄偷走五把剑，还留着两把在原处。</p>
+<h3 id="牌义推演-6"><a href="#牌义推演-6" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>同样是以寡敌众的的主题，在权杖七中，地势对主角有利，但在宝剑七中，却非如此，他一人力量毕竟有限，所以无法使用光明正大的方式与敌人交锋，只能偷偷摸摸的用这种欺诈又狡猾的方式，企图减弱敌人的战力。</li>
+</ul>
+<hr>
+<ul>
+<li>这个男子孤军奋战不松懈，蹑手蹑脚溜离象征社会与人群的彩色军帐，所以宝剑七具有孤立的意义。</li>
+<li>宝剑七的这个男人有点类似电影中的独行侠。这样的处世方式也许有用，但并非永远行得通。如果抽到宝剑七，也许当事人该检视一下自己的处理方式是否适用。</li>
+<li>因为搬不动而留在身后的两把剑象征这个尝试有其危险性，万一东窗事发，他可能会遭到惨烈的下场。</li>
+<li>他不因困难而退缩，反而怀抱希望，奋力为生存努力，显示出内在的自信，这点我们也可以从他的表情中看出来。宝剑七基本而言代表做一件困难的事情。想要成功，就一定得付出极大的心力。不过我们仍然不要放弃希望。</li>
+<li>宝剑七经常代表欺骗、狡猾、背叛或轨迹。当事人可能是说谎的一方，也可能是受骗的一方。如果是说谎的一方，请务必三思。如果是受骗的一方，一定要严加小心。</li>
+<li>伟特在书中指出，宝剑七代表「计策、尝试、心愿、希望」；另代表「争吵、可能失败的计划、使人烦恼的事物」。虽然有负面牌义，但正面的牌义仍在。「可能失败」的计划不等同于「失败」的计划，只要怀抱希望，付出努力，成功仍然是可能的。</li>
+</ul>
+<hr>
+<ul>
+<li>伟特给宝剑七逆位的解释为：「忠言、商议、指导、毁谤、胡言」。通常此时当事人不再孤军奋战，起码身边有人提供建议。谎言诡计可能东窗事发。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>你最近是否有欺骗别人，或是被骗？宝剑七显示谎言的可能。 宝剑七代表独立工作者，大小事物他都一手包办，也许显得有些神秘，相对地，他的合作性和合群性也比较低。</p>
+</blockquote>
+<h2 id="宝剑八"><a href="#宝剑八" class="headerlink" title="宝剑八"></a>宝剑八</h2><p><img lazyload="" alt="宝剑八" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑八.7ax1tx8hw1.webp"></p>
+<h3 id="我的感受-7"><a href="#我的感受-7" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>身穿红衣的人蒙住双眼，被绑着，似乎成为了第九把宝剑。</li>
+<li>地上有水流，背后是湖泊与城堡。这是被放逐还是被监禁的人呢</li>
+</ul>
+<h3 id="牌面解析-7"><a href="#牌面解析-7" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>划地自限 坏消息 压迫 迷惑</p>
+<p>一个女人眼睛被布蒙住，上半身被捆绑着，身处八把宝剑群中。地上满是象征羞辱的泥泞，而远方是座矗立于峭壁之上的城堡，象征绑住她的权威。</p>
+<h3 id="牌义推演-7"><a href="#牌义推演-7" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>八号牌与「评估与前进」相关。圣杯八所表现的主题是「重新评估再前进」，钱币八表现「逐渐前进」，权杖八表现「迅速前进」，而宝剑八正位的主题则是「评估与前进的困难」。</li>
+<li>宝剑八和宝剑侍者或权杖八逆位一样，都代表坏消息。</li>
+</ul>
+<hr>
+<ul>
+<li>女子在眼盲手缚的情况下，四周又都是宝剑，使其受到重重的限制与压迫，她看不见四周，感到非常无助，好像自己是个睡美人，只能消极等待王子来拯救。</li>
+<li>女子的脚并未被绑住，宝剑也没有将她完全困住，四周更无人看守。因此，宝剑八代表的限制不一定全然是外界给予的压力，更常见的状况反而是当事人划地自限。破案关键即在于蒙住她双眼的布条。</li>
+<li>我们在生活中常常故步自封，认为自己做不到，或者是单纯出于对陌生事物的恐惧，因而畏缩退却，殊不知事情根本没有像自己想象的那么困难。宝剑八的讯息是：请把眼罩取下。走出泥泞与剑阵，其实很容易。只要拥有坚定的信心，即使看不见前方，也能阔步而行。</li>
+<li>宝剑八在健康的占卜中，表示生病。少数时候甚至表示牢狱之灾。</li>
+<li>在感情方面，可能意味着当事人看不清事实，自己钻牛角尖，走不出来，而感到彷徨无助，甚至觉得自己才是受害者。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑八逆位，女子开始察觉自己的无知，是觉醒的起点。她将移动脚步，获得自由，真正表现出「前进」的真谛。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>宝剑八和宝剑二都有个女人被布蒙住双眼，宝剑二是自己选择逃避，宝剑八则画地自限。请你试着找出更多共同点和相异处。 江小姐自认外貌不好，学历也不高，家中还有一个智障弟弟，因此她总是认为自己不值得男人追求，而拒绝了许多欣赏她温柔体贴个性的追求者。其实她的那些顾忌，追求者根本不在意。江小姐就像宝剑八中的女子一样，自我设限。 宝剑八出现在环境的位置，显示环境中有很多阻力或敌对，你可能处在遭遇麻烦的情况中。 宝剑八无论正逆位，都提醒你要注意到自己的脚是自由的，逆位时，更直接建议你要马上跳出限制。</p>
+</blockquote>
+<h2 id="宝剑九"><a href="#宝剑九" class="headerlink" title="宝剑九"></a>宝剑九</h2><p><img lazyload="" alt="宝剑九" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑九.3nri6ecpdx.webp"></p>
+<h3 id="我的感受-8"><a href="#我的感受-8" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>哥们大晚上做噩梦呢，梦见战争了吗？</li>
+<li>黑色的墙上挂着就九把宝剑</li>
+<li>被子上的是石榴花吗？还是玫瑰花</li>
+<li>床边上的花纹是两个人在搬运木材或者石头吗？</li>
+</ul>
+<h3 id="牌面解析-8"><a href="#牌面解析-8" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>绝望 梦魇 痛苦 失眠</p>
+<p>午夜梦回，一个女子从睡梦中惊醒，把脸埋在双手中。墙上横挂着九把剑，看起来彷佛从后面刺穿那女子，带给人极大的压迫感。棉被图案是由象征热情的玫瑰，以及星座符号组成的。床侧则雕刻着一人击败另一人的画面。</p>
+<h3 id="牌义推演-8"><a href="#牌义推演-8" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>宝剑九表达人世间最深的恐惧。宝剑三起码能够接受伤心，宝剑六缓慢疗伤，宝剑十里的人已经人事不知了，唯有宝剑九中的女子仍然深受困扰，感到极度的绝望。</li>
+<li>若是同时与死神、宝剑十、塔等象征结束的牌出现时，也许必须面对最不希望的结果，而这是人世间必经的课题。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑九的昵称又叫「恶梦牌」，当人被困在梦魇中时，他是不知道自己有出路的，只能不断的承受绝望，苦苦挣扎。唯有彻底觉知的人，才会知道，原来只要睁开眼睛，就能不再受恐惧缠绕。</li>
+<li>极深的痛苦，极大的压力，造成夜夜失眠的后果。是什么让你如此害怕？是何事这样困扰着你？是什么经历让你感到这般屈辱而羞愧？你是害怕失败，还是害怕失去？甚或单纯不敢面对未来的不确定？你做了什么亏心事吗？你的信心为何崩解？你的内在力量到哪里去了？当你在脆弱的深夜时分想起你最恐惧的事物，你是否仍相信明天？</li>
+<li>在健康的占卜中，宝剑九代表失眠、恶梦，或者是头颈胸的疾病。有时候代表手术。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑九的症结在于当事人看不到希望存在，逆位时，则比较能看见光明面，或是光明面即将到来。要相信时间能治愈一切。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>白妈妈有一天接女儿放学回家时因故迟到，女儿竟被坏人绑架、强暴并折磨至死，亲眼目睹女儿惨不忍睹的遗体的白妈妈，虽然已经过了许多年，仍然会在午夜梦回时，因自责而悲伤落泪。这就是宝剑九悲伤的写照。 宝剑九描述深沉的折磨、绝望、屈辱与悔恨。折磨你的可能是某个人或某件事，甚或是自己的想法。 宝剑九出现在牌阵中代表建议的位置，表示你应该诚实接受自己的感觉，面对它，然后释放它。</p>
+</blockquote>
+<h2 id="宝剑十"><a href="#宝剑十" class="headerlink" title="宝剑十"></a>宝剑十</h2><p><img lazyload="" alt="宝剑十" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑十.9gwgfp05n0.webp"></p>
+<h3 id="我的感受-9"><a href="#我的感受-9" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>战死沙场的男子，被十把宝剑刺穿，有些瘆人。</li>
+<li>背景里的山水照旧，天空却有一半被黑色乌云遮挡。太阳似乎要出来了，又是新的一天。世界不会因为缺少了谁而停止转动，也许？</li>
+</ul>
+<h3 id="牌面解析-9"><a href="#牌面解析-9" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>惨痛 结束 黎明前的黑暗</p>
+<p>一个俯卧的男人，背上插着十把剑，有一把甚至从插进耳朵里去。这画面实在令人怵目惊心。牌面中有一半被黑色的天空和乌云所占去，多少暗示宝剑十这张牌是大家避之唯恐不及的所谓的「坏牌」。</p>
+<h3 id="牌义推演-9"><a href="#牌义推演-9" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>每个牌组的十号牌都代表该牌组「过度」的状况：权杖十被过多的责任压得累垮，圣杯十中人人都幸福洋溢，钱币十的生活富裕却缺乏情感交流，宝剑十则表现的是宝剑特质的滥用所造成的后果。</li>
+<li>河川中的水平静无波，和前面宝剑二与宝剑六中汹涌的浪迥然不同。也许事情没有想象中的那么糟。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑十通常的涵义非常负面。牌面上男子的不仅是死去，而且还是被十把剑给刺得惨死的。</li>
+<li>现在是人生中的黑暗期，然而，好坏并非绝对。男人身上披着的红袍象征他对生命的热忱，而远方曙光已现，似乎在告诉我们，这只是黎明前的黑暗罢了。宝剑十提供我们一个机会来放弃生命中不需要的事物，以为了更美好的将来做准备。</li>
+<li>感情婚姻或事业方面，宝剑十往往代表痛苦的结束。</li>
+<li>在健康方面，宝剑十可能代表背部或脊椎方面的毛病，在极少数的情况下，与其它类似意义的牌同时出现时，才有可能代表死亡。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑十逆位，伟特诠释为：优势、获利、成功，但是不持久。把牌倒过来看，插在男人身上的十把剑大概会掉下来，伤害性似乎没那么大了。此时当事人可能侥幸逃过一劫，但仍无法幸免这过程中的痛苦。</li>
+<li>每一个事件，无论好或坏，都有意义。宝剑十出现，症结在于如何从失败中学习，从痛苦中成长，这才是宝剑终极的意义。</li>
+</ul>
+<blockquote>
+<p>葵花锦囊</p>
+<p>宝剑十显示伤害已经造成，而无可挽回。但你仍然可以庆幸，这个冲突或问题总算告一段落，虽然结局不是你乐见的。 宝剑十出现在牌阵中代表建议的位置，表示你应该全然接受所遭遇的失败、麻烦、冲突或逆境，它们现在都结束了，你却可以重新出发。 男人被十把宝剑钉在地下的画面，暗示目前你可能受到某些限制，不能自由行动，也可能不能自由选择。</p>
+</blockquote>
+<h2 id="宝剑侍从"><a href="#宝剑侍从" class="headerlink" title="宝剑侍从"></a>宝剑侍从</h2><p><img lazyload="" alt="宝剑侍从" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑侍从.8ad573b91p.webp"></p>
+<h3 id="我的感受-10"><a href="#我的感受-10" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>风元素、自由、热情</li>
+<li>坚毅的小眼神</li>
+<li>背后有一点小海浪，风还不小</li>
+</ul>
+<h3 id="牌面解析-10"><a href="#牌面解析-10" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>间谍 狗仔队</p>
+<p>战争时，宝剑国王运筹帷幄，宝剑骑士亲临战场，宝剑侍者则待在高地上刺探军情。他两手握着宝剑，眼光却朝着远方。他的头发和背景中的树都被风吹得飞扬。远方天空中有十只小鸟成群飞舞。背景的灰云带来些许混乱的气氛。</p>
+<h3 id="牌义推演-10"><a href="#牌义推演-10" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>宝剑侍者把好奇心用来刺探别人的隐私。他是最优秀的记者、情报员和狗仔队。</li>
+<li>他喜欢观察别人，抱着一种冷眼旁观的心态，道长短、说是非，无形中也散播了不少谣言。</li>
+<li>他在四个侍者中，反应最快，口齿伶俐，最爱说话，也是最会使小伎俩的，因为他聪明过头了。</li>
+<li>他具备追根究柢的精神，是四个侍者中最适合读研究所的。</li>
+<li>他也许可以帮你看清真相。</li>
+<li>他很有警觉心和防卫心，经常用怀疑的眼光看待事情，不过还不至于像宝剑骑士那样爱批判。</li>
+<li>他毕竟是侍者，性格比较幼稚，但与他来往还是必须小心，他可能会把你的隐私都传出去。</li>
+<li>他的形式风格比较偷偷摸摸，如果跟他起了冲突，他可能会跟你唇枪舌战一番就没事了，但如果真的把他惹恼了，他就会像暗夜中的刺客一样，偷偷在你背后捅一刀。</li>
+</ul>
+<hr>
+<ul>
+<li>坏消息，带来挑战的讯息。谣言。小口角。</li>
+<li>利于学习新科技或沟通之类的学科，诸如电脑、语言等。</li>
+<li>宝剑侍者站在高地上，可以代表航空旅行。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑侍者原本适度的警觉心和防卫心，在逆位时，会变成强烈的疑心病，把每个人都当成敌人，容易生出口舌是非。</li>
+<li>另一方面，宝剑侍者逆位时，表达力受阻碍，你可能口吃怯场，或是在沟通时发生误解。</li>
+<li>健康方面，可能代表语言障碍，或是如图面所示，在使用尖锐器具时受伤。</li>
+<li>无论正逆位，都可能表示坏消息，逆位时，剑尖朝向问卜者，情况更糟。</li>
+</ul>
+<h2 id="宝剑骑士"><a href="#宝剑骑士" class="headerlink" title="宝剑骑士"></a>宝剑骑士</h2><p><img lazyload="" alt="宝剑骑士" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑骑士.7sn3ii9vgp.webp"></p>
+<h3 id="我的感受-11"><a href="#我的感受-11" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>冲刺，冲刺。</li>
+<li>迅疾，风在刮，树在晃</li>
+</ul>
+<h3 id="牌面解析-11"><a href="#牌面解析-11" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>战士 极端份子 反叛人士</p>
+<p>宝剑骑士和圣杯骑士同样骑着白马，但宝剑骑士这匹马在狂风中急速奔驰，与圣杯骑士平缓前进的马形成强烈对比，间接反应出主人个性的差异。宝剑骑士将宝剑高举过头顶，表情狰狞，往前冲杀。</p>
+<p>马鞍上饰以蝴蝶和鸟，象征风要素。他穿着铁甲，外袍也要鸟的图案，而靴子前后都带着尖刺，在战场上毫不留情。云和树都被狂风吹得七零八落。空中飞翔的鸟，队形也略显散乱。</p>
+<h3 id="牌义推演-11"><a href="#牌义推演-11" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>四张骑士牌都表现该牌组的极端特质，宝剑骑士又是极端中的极端。很多版本的塔罗牌都将他描绘成屠龙骑士，其他人去屠龙往往丧命，宝剑骑士偏要当那个胜利者。宝剑国王是负责控兵的领主，骑士就是实际在战场上冲杀的军人。</li>
+<li>他勇气过人，豪气干云，好胜心强，行动迅捷，但一不小心就会流于狂野放纵。</li>
+<li>他会是很好的业务员、立法委员和革命人士，适合从事站在第一线拼命的工作。</li>
+<li>他是很有气魄的朋友，言语豪放，不畏权贵，但是性子很急，冲动鲁莽，做事常常不计后果，容易跟人起冲突。</li>
+<li>他的风象特质使他思考敏捷，也常有独到的见解，然而，既然他是宝剑牌组中的极端派，所以难免显得好批评，要别人接受他的想法。对于他觉得错误的观念，他会争论到底，对于坏人，他更会斗到底，玉石俱焚也在所不惜。</li>
+<li>虽然他爆发力十足，不过却欠缺长远的计划和忍耐力。他是最可怕的敌人。他的狂放性格对异性也会造成致命的吸引力，不过，假使他成了你的情人，最好避免跟他正面冲突，因为会对配偶拳脚相向的也通常是这种人。</li>
+</ul>
+<hr>
+<ul>
+<li>兵戎相见总是不好，但既然宝剑骑士是军人，所以口角争端难免，可能导致愤怒憎恨的情绪。</li>
+<li>也代表匆忙的旅行，地点可能风大有雨。</li>
+</ul>
+<hr>
+<ul>
+<li>逆位的宝剑骑士表现过度时，批判性太强，使他总是用挑毛病的眼光看事情，牙尖嘴利，言语伤人。他会变成可怕的极端份子，激烈的革命派，却是为反对而反对，盲目牺牲流血也在所不惜。</li>
+<li>另一方面，可能代表想冲又冲不动，心有余而力不足。</li>
+<li>如果代表旅行，可能在交通方面出差错。骑快马形同开快车，容易交通意外。</li>
+<li>健康方面，宝剑骑士在战场上拼杀，代表流血冲突；</li>
+</ul>
+<h2 id="宝剑皇后"><a href="#宝剑皇后" class="headerlink" title="宝剑皇后"></a>宝剑皇后</h2><p><img lazyload="" alt="宝剑皇后" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑皇后.361ghtbbsz.webp"></p>
+<h3 id="我的感受-12"><a href="#我的感受-12" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>侧面位，身穿白衣，披着蓝天白云画风的袍子</li>
+<li>背后的云似乎静止了，天上有一只大雁。</li>
+<li>左手抬起，右手持宝剑指向天空，一副“放马过来”的感觉。</li>
+<li>自信，从容</li>
+</ul>
+<h3 id="牌面解析-12"><a href="#牌面解析-12" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>强悍的寡妇 冰山美人 铁娘子</p>
+<p>宝剑王后戴着蝴蝶花纹的王冠，象征灵魂，也象征风要素。她穿着灰色内袍，和蓝天灰云花纹的披风。她的表情坚毅，似乎皱着眉头，左手却对世界敞开。她右手高举宝剑，剑尖笔直向上，象征她能破除迷惑，看清真相。</p>
+<p>她的宝座扶手之下有个人头花纹，那是风之精灵，象征宝剑牌组的风向特质。在某些版本的牌中，宝剑王后甚至果真提个人头，是个毫不留情的女战士。宝座的底部又有蝴蝶花纹。宝剑王后的头顶上有只高飞的鸟，象征智慧和风要素。背景天空是深蓝色的，还有大片的灰云。</p>
+<h3 id="牌义推演-12"><a href="#牌义推演-12" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>宝剑王后同时展现智慧与悲伤的主题。一方面她举着宝剑，不偏不倚，和正义与宝剑一相同，代表她有绝佳的洞察力与智慧，可以看清一切不明。她眼光锐利，思想机智，经常语带机锋，是四位王后中最理智冷静的一位。</li>
+<li>她是公正无私的铁娘子，在战场上冲锋陷阵的女战士，请你切勿尝试用人情来打动她，也别想打什么鬼主意，否则会吃不完兜着走。</li>
+<li>她可能历经风霜，你可以从她那边获得一些人生智慧。她也会帮助别人，如果你想获得诚实的建议，找她准没错。她会冷静的为你分析局势，一针见血地告诉你实情，并为你想出一些可行的办法，不过，请不要期望从她那边得到安慰或拥抱。</li>
+<li>她是非常棒的法官、律师、批评家或心理分析师。如果她是长辈或上司，那么她虽然不很平易近人，甚至有点严格，但她绝对讲理，临事冷静，条理分明，按部就班，你只要将份内工作做好，就没问题了。她的好处是随时都保持理智，不会过于情绪化。</li>
+<li>如果她是一位母亲，则会是一位要求颇高的母亲，孩子可能无法获得足够的亲情。</li>
+<li>另一方面，宝剑王后传统上代表寡妇或不孕的女人，也可以表示为情所伤的人。如果她是你的情人，那么她会用极度理性的态度来看低你们的感情，甚至随时想结束这段感情。</li>
+<li>因为曾经在感情上受过伤害，所以她对异性不假辞色，冷冰冰的态度经常吓退追求者。她坚毅冷酷的神情，好像在说：「你敢就来试试看！我会一剑将你劈死」。如果你想追求这位冰山美人，请三思再三思。</li>
+</ul>
+<hr>
+<ul>
+<li>无论正逆位，宝剑王后经常代表悲伤、分离与独身。实际情形可能代表分手、失恋，或思念远方的人。</li>
+</ul>
+<hr>
+<ul>
+<li>宝剑王后逆位，对追求者的态度不只是冷酷，简直到残忍的地步。原本正直的她变得坏心肠，用奸诈的手段来达到目的，充满肃杀之气。原本合理要求的个性变得近乎苛求，极度小心眼，让旁人苦不堪言。</li>
+<li>正位时，她言语诚实且一针见血，逆位时，她会直接用言语刺伤他人，也可能搬弄是非，散播谣言。</li>
+</ul>
+<h2 id="宝剑国王"><a href="#宝剑国王" class="headerlink" title="宝剑国王"></a>宝剑国王</h2><p><img lazyload="" alt="宝剑国王" data-src="https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/宝剑国王.5fkh1aw29u.webp"></p>
+<h3 id="我的感受-13"><a href="#我的感受-13" class="headerlink" title="我的感受"></a>我的感受</h3><ul>
+<li>智慧的蓝色内袍，坚贞的紫色披风，橙色的衣服与帽子，还有一个皇冠</li>
+<li>表情坚毅，右手持宝剑，左手自然的放在腿上。</li>
+<li>宝座上的是蝴蝶，下边好像有个人影状的云。</li>
+</ul>
+<h3 id="牌面解析-13"><a href="#牌面解析-13" class="headerlink" title="牌面解析"></a>牌面解析</h3><p>专业人士 律师</p>
+<p>宝剑国王是四张国王牌中唯一以正面出现的。他穿着蓝色内袍和红色披风，象征他必须把智慧以行动表现。他的右手持剑，剑尖偏右，偏向行动的那一边。</p>
+<p>左手戴着象征权利的戒指，轻松的放在腿上。他后方帷幕上饰有象征灵魂和风要素的蝴蝶花纹。天空中的鸟带领他原理火要素的热情、水要素的情感和土要素的物质，而进入纯然风要素的智慧领域。</p>
+<p>鸟的数量有两只，象征在智慧与行动之间的选择，对宝剑国王而言，智慧必须用行动来实现。背景中的柏树和灰暗的云，在四张宝剑牌中都会出现。</p>
+<h3 id="牌义推演-13"><a href="#牌义推演-13" class="headerlink" title="牌义推演"></a>牌义推演</h3><ul>
+<li>宝剑牌组的人物在古代都是骑士阶级，负责统治与用兵。宝剑国王就是统御军队的领主，他运用智慧，掌握生杀大权，必要的时候必须表现冷酷。</li>
+<li>在现代社会，他是典型的律师、法官和政府官员。他惯用理性分析和逻辑思考，学富五车，而且懂得实际运用。他不太表露情感，总是以专业的姿态出现在世人面前。</li>
+<li>他的反应明快，聪明机智，见解独到，沟通力强，口才良好，是很杰出的作家、批评家、政治评论家、外交家和哲学家。当你感到迷惘困惑的时，他能一语点醒梦中人。</li>
+<li>他如果是你的朋友，那么当你想要情感支持，找人哭诉时，找你就照错了对象，但是如果你想要听一针见血的实话，或需要明确的指引时，他是不二人选。</li>
+<li>如果他是你的上司，你可以从他那边学到很多专业知识，他对你的工作表现也会有所要求，你不能偷鸡摸狗，因为会被他一眼看穿。</li>
+<li>他是一个聪明、诚实又有原则的伴侣，但是表现有点冷淡，凡是都喜欢讲理，道德标准高，但是批判性和控制欲可能有点强。</li>
+<li>基本上，宝剑国王是让人信赖的顾问和专业人士，缺点是在情感方面表现疏离。</li>
+</ul>
+<hr>
+<ul>
+<li>可能与法律事物、协商或军警等事务相关。建议寻求专业人士的协助。</li>
+</ul>
+<hr>
+<ul>
+<li>逆位会将宝剑国王的理性导向极端，他变得好批评、严苛、冷血、残忍、无情。他的批评性太强，会导致鸡蛋里挑骨头。最严重的情况下，可能会让人觉得他根本不是人。</li>
+<li>另一方面，也有可能指软弱、无能、专业知识不足。如果指事件，建议当事人不要寻求专业人士协助，不要听信权威人士的建议。</li>
+</ul>
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E5%A1%94%E7%BD%97%E7%89%8C/">#塔罗牌</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2024/06/30/%E9%9A%8F%E7%AC%94/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/Week%206/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">暑期实习 Week 6</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2024/06/23/%E9%9A%8F%E7%AC%94/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/Week%205/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">暑期实习 Week 5</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text"></span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E9%A6%96%E7%89%8C"><span class="nav-text">宝剑首牌</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E4%BA%8C"><span class="nav-text">宝剑二</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-1"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-1"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-1"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E4%B8%89"><span class="nav-text">宝剑三</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-2"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-2"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-2"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E5%9B%9B"><span class="nav-text">宝剑四</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-3"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-3"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-3"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E4%BA%94"><span class="nav-text">宝剑五</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-4"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-4"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-4"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E5%85%AD"><span class="nav-text">宝剑六</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-5"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-5"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-5"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E4%B8%83"><span class="nav-text">宝剑七</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-6"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-6"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-6"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E5%85%AB"><span class="nav-text">宝剑八</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-7"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-7"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-7"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E4%B9%9D"><span class="nav-text">宝剑九</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-8"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-8"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-8"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E5%8D%81"><span class="nav-text">宝剑十</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-9"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-9"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-9"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E4%BE%8D%E4%BB%8E"><span class="nav-text">宝剑侍从</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-10"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-10"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-10"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E9%AA%91%E5%A3%AB"><span class="nav-text">宝剑骑士</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-11"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-11"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-11"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E7%9A%87%E5%90%8E"><span class="nav-text">宝剑皇后</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-12"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-12"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-12"><span class="nav-text">牌义推演</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9D%E5%89%91%E5%9B%BD%E7%8E%8B"><span class="nav-text">宝剑国王</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E6%84%9F%E5%8F%97-13"><span class="nav-text">我的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E9%9D%A2%E8%A7%A3%E6%9E%90-13"><span class="nav-text">牌面解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%89%8C%E4%B9%89%E6%8E%A8%E6%BC%94-13"><span class="nav-text">牌义推演</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2022</span> -
+            
+            2025
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">儒烏風亭いおり</a>
+            
+        </div>
+        
+            <script async 
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                
+                
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>

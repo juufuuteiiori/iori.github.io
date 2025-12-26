@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="儒烏風亭いおり">
+    
+    <title>
+        
+            实习总结 |
+        
+        いおり的博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#9966FF","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","font_size":null,"font_family":null,"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/らでんさん.4ckr96h8ih.webp","description":"更健康，更长久","font_color":null,"hitokoto":{"enable":false}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default","code_block_collapse":true},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":null,"version":2}},"post":{"img_align":"center","word_count":{"enable":true,"wordcount":true,"min2read":false},"author_label":{"enable":false},"auto":false,"custom_label_list":[]},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                </a>
+            
+            <a class="logo-title" href="/">
+               いおり的博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">实习总结</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">儒烏風亭いおり</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2024-08-16 23:00:00</span>
+        <span class="mobile">2024-08-16 23:00</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2025-07-13 15:16:32</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/">暑期实习</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>1.6k 字</span>
+        </span>
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <p>碎碎念</p>
+<h2 id="5-月-20-日"><a href="#5-月-20-日" class="headerlink" title=" 5  月  20  日"></a><span id="more"></span> 5  月  20  日</h2><p>还记得是  5  月  20  日从成都出发，飞往  1220  公里外的广州。涛哥早上送我到了校门口，从这一天起，他成了我们四人间最后的战士，保护寝室不被邪恶力量侵犯  www</p>
+<p>飞机落地时，天空下着小雨。我在日记里写下了一句话，“把未知交给未知，让现在成为永恒。”第一次去公寓有些迷路，拖着行李箱撑者雨伞，跟着导航一步一步走。有些闷热，出了很多汗。</p>
+<p>在公寓和房东签了合同，说实话当时有点蠢，听信了房东说的很好转租。跟室友商量了一下签的一年期，为了每个月少两三百房租（于是每月  3300  房租）而已。现在看起来，每个月反而多花了一千多（3800  押金拿不回来了）。</p>
+<p>晚上在公寓附近吃饭，吃得不太习惯。在超市买了点东西，物价比成都高很多。我的雨伞放在超市门口，却被其他人拿走了。这把伞还是五六年前参加重庆大学的  ACM  校赛拿到的纪念品，有些难受。</p>
+<h2 id="5-月-21-日"><a href="#5-月-21-日" class="headerlink" title="5  月  21  日"></a>5  月  21  日</h2><p>第一次去园区，感受了一下广州的物价，指一份煲仔饭二十多，上面的腊味不到一百克的样子。之后就很少在外边吃饭了，虽然食堂的味道有时在好吃与难吃之间选择了好难吃。</p>
+<h2 id="5-月-22-日"><a href="#5-月-22-日" class="headerlink" title="5  月  22  日"></a>5  月  22  日</h2><p>入职报到，认识了  Leader &amp; Mentor  天哥，还有两位师兄  isaacjlwu  和  darcydeng。很夸张吧，我们小组只有三位正式员工，带上我才刚好凑齐一桌麻将。</p>
+<p>中午在外面聚餐，聊了会天。之后回公司熟悉环境，可以说啥也没做。</p>
+<h2 id="第一个月"><a href="#第一个月" class="headerlink" title="第一个月"></a>第一个月</h2><p>第二天领取了一个主线任务，做一个  Demo  出来。天哥给了我一堆任务描述，里面的技术栈有一些没有听过，剩下的仅仅是听过而已。</p>
+<p>接下来的一个月就是学习、学习再学习，最后做了一个很蠢的  Demo  出来。</p>
+<h2 id="第二个月"><a href="#第二个月" class="headerlink" title="第二个月"></a>第二个月</h2><p>开始接触工作内容，指底层代码。文档少的可怜，而我要学习的部分可以说没有文档。于是我写了一篇文档出来。</p>
+<p>这一个月其实挺难过来的，有很多工程上的问题，比如各种配置、设置还有平台，到现在都还是懵懵懂懂，照猫画虎。中间有几天很  emo，每天在那里调试一些工程方面的  bug，问师兄的问题一般也要半个小时才会回复，但是回复我也看不懂，就更  emo  了。</p>
+<p>大家都挺忙的，“小团队”的理念对每个人的能力有很高的要求，工作时长大多每天十来个小时。在  emo  的那几天，我真的很想去朝九晚五的外企，但如果我是外企的管理层，我是不会在这边继续发展下去，早点撤资止损才是最优解。所以去外企也是虚无缥缈的幻想罢了。</p>
+<h2 id="第三个月"><a href="#第三个月" class="headerlink" title="第三个月"></a>第三个月</h2><p>可以算得上是有工作产出了。相比起来前两个月就是在带薪学习。</p>
+<p>跟着设计方案去实现代码，正确性上不会太难，只是程序的效率会略低一些。代码修修改改，有时会推倒之前的设计，再推倒新设计，把代码改回原来的设计。很蠢是吧。</p>
+<p>写代码其实算轻松的了，做压力测试的时候才叫一头雾水。希望程序跑快快，实际上是被露露变羊了，因为露露在对面。最后写项目报告时都有点难绷住，效率还有些下降，只能写一些可以优化的点。至少正确性能保证，设计方案也基本实现了，希望后边的面试官不会太严格。</p>
+<h2 id="工作之余"><a href="#工作之余" class="headerlink" title="工作之余"></a>工作之余</h2><p>塔罗牌的牌义不能说学完了，只能说都过了一遍，在博客里整理了一番。还没有实操过，没有什么合适的机会和合适的问题。</p>
+<p>日语的学习几乎停滞了，在第一个月还有学习，周末上网课。到了之后就有些摆烂，隔几天看会儿  hololive  练一下耳朵。虽然到后边看  EN  组多于  JP  组。</p>
+<p>学校那边的各种课程报告、项目也挺蠢的。报告写了一堆学术垃圾交了上去。项目是做一个前端的网站，在学校时就完成了大部分，之后就不太想改动了。有些抽象的是，我前端基本写完了，任课教师突然加需求，啊这。我也不知道做后端的同学有没有实现这个需求，反正我前端没有加上去。及格万岁，多一分浪费。</p>
+<p>这边的天气有些奇怪，工作日偶尔下雨，周末大概率下雨。最初的周末是学习+赶作业，后来的周末是咖啡厅看书玩游戏（ipad  上还有  Switch），最后直接上  LOL  了。有一说一，这边离台服的服务器确实近，在学校时  ping  值有六七十，这边只有三十。上了个翡翠就打不动了，比国服郊区的压力要大一些，对线总是被打爆。</p>
+<p>周末出去玩了几次，但玩的并没有特别高兴。反而和朋友一起玩  LOL  时感觉高兴一些，为什么呢？<br>还没有开始放暑假，学校就要开学了。好难过。回家玩十几天就回学校吧，虽然在学校也不会去上课罢了。大四应该是未来几年里，自由支配的时间最多的一年吧。等到工作之后，工作日基本上就是在公司里待着了，早出晚归的。</p>
+<p>不想毕业啊，如果不是为了米，谁又想工作呢？想要  gap year，但这并不现实，真可惜。</p>
+<blockquote>
+<p>转正好像寄了，滚去秋招吧<br>UPD：转正通过了，等着毕业入职吧</p>
+</blockquote>
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/">#暑期实习</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2025/03/01/%E9%9A%8F%E7%AC%94/%E6%8A%95%E8%B5%84%E6%A8%A1%E6%8B%9F/%E6%8A%95%E8%B5%84%E6%A8%A1%E6%8B%9F%20Week%201/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">投资模拟 Week 1</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2024/08/16/%E9%9A%8F%E7%AC%94/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/Week%2013/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">暑期实习 Week 13</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%9C%88-20-%E6%97%A5"><span class="nav-text"> 5  月  20  日</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%9C%88-21-%E6%97%A5"><span class="nav-text">5  月  21  日</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%9C%88-22-%E6%97%A5"><span class="nav-text">5  月  22  日</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9C%88"><span class="nav-text">第一个月</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E4%B8%AA%E6%9C%88"><span class="nav-text">第二个月</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E4%B8%AA%E6%9C%88"><span class="nav-text">第三个月</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%A5%E4%BD%9C%E4%B9%8B%E4%BD%99"><span class="nav-text">工作之余</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2022</span> -
+            
+            2025
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">儒烏風亭いおり</a>
+            
+        </div>
+        
+            <script async 
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                
+                
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>

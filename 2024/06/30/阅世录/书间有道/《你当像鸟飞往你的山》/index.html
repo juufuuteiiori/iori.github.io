@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="儒烏風亭いおり">
+    
+    <title>
+        
+            《你当像鸟飞往你的山》 |
+        
+        いおり的博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#9966FF","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","font_size":null,"font_family":null,"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/らでんさん.4ckr96h8ih.webp","description":"更健康，更长久","font_color":null,"hitokoto":{"enable":false}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default","code_block_collapse":true},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":null,"version":2}},"post":{"img_align":"center","word_count":{"enable":true,"wordcount":true,"min2read":false},"author_label":{"enable":false},"auto":false,"custom_label_list":[]},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                </a>
+            
+            <a class="logo-title" href="/">
+               いおり的博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">《你当像鸟飞往你的山》</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">儒烏風亭いおり</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2024-06-30 22:30:00</span>
+        <span class="mobile">2024-06-30 22:30</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2025-07-13 15:52:42</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E9%98%85%E4%B8%96%E5%BD%95/">阅世录</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/">书间有道</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>3.1k 字</span>
+        </span>
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h1 id="一点摘录"><a href="#一点摘录" class="headerlink" title=" 一点摘录"></a><span id="more"></span> 一点摘录</h1><h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><h3 id="择善"><a href="#择善" class="headerlink" title="择善"></a>择善</h3><p>我成长中一直在为末日降临做准备，提防太阳变暗，提防血月出现。夏天我把桃子装罐储藏，冬天更换应急补给。人类世界崩塌之时，我们家会继续存活，不受影响。</p>
+<hr>
+<p>爸爸说公立学校是政府引导孩子远离上帝的阴谋。“我把孩子们送到下面那所学校，”他说，“和把他们交给魔鬼有什么两样。”</p>
+<h3 id="助产士"><a href="#助产士" class="headerlink" title="助产士"></a>助产士</h3><p>仿佛不知道我哪天出生使得“我拥有身份”这整个概念都不成立了。他们似乎在说，人怎么可能没有生日？我不明白为什么不可以。在母亲决定给我办出生证明之前，我从不觉得不知道生日是件怪事。我知道我是在九月底出生的，每年我都会挑一个不是星期天的日子过生日，因为在教堂过生日很没趣。有时我希望母亲把电话递给我，这样我就可以自己解释。“和你一样，我也有生日，”我想告诉这些人，“只不过它不固定。难道你不希望能变换一下你的生日吗？”</p>
+<h3 id="奶油色鞋子"><a href="#奶油色鞋子" class="headerlink" title="奶油色鞋子"></a>奶油色鞋子</h3><p>母亲常把自己描述成一个讨好者，说她无法阻止自己去猜测别人想要她成为什么样的人，也无法阻止自己极不情愿地强迫自己做出改变。</p>
+<h3 id="阿帕奇女人"><a href="#阿帕奇女人" class="headerlink" title="阿帕奇女人"></a>阿帕奇女人</h3><p>十年后我的理解会发生转变，我沉重地步入成年，那之后，那次车祸总会令我想起那些阿帕奇女人，想起汇而构成人一生的所有决定——人们共同或者独自做出的那些决定，聚合起来，制造了每一桩单独事件。沙粒不可计数，叠压成沉积物，然后成为岩石。</p>
+<h3 id="大小盾牌"><a href="#大小盾牌" class="headerlink" title="大小盾牌"></a>大小盾牌</h3><blockquote>
+<p>这一章读得我好压抑</p>
+</blockquote>
+<p>“人总是希望奇迹发生。”她对我说，“如果能给他们带来希望，让他们相信自己正在好转，他们就什么都信，什么都吃。但是世界上根本没有魔法这种东西。营养、锻炼和钻研草药特性，这才是全部。但人们生病受罪时，你说这个他们不接受。”</p>
+<hr>
+<p>爸爸要是看见我在看书，就会试图把我拽走。也许他想起了泰勒。也许他认为如果能再让我分心几年，危险就会过去。所以不管有无必要，他千方百计给我找活儿干。一天下午，他又逮住我在看数学书，就让我和他抬水穿过田野，去浇他的果树，整整一小时里抬了一桶又一桶。这原本也没什么反常的，但当天正在下暴雨。</p>
+<hr>
+<p>我在学习的这个技能至关重要，那就是对不懂的东西耐心阅读。</p>
+<h3 id="当时世代的完全人"><a href="#当时世代的完全人" class="headerlink" title="当时世代的完全人"></a>当时世代的完全人</h3><p>爸爸说，政府编程的电脑日历以六位数显示，这意味着年份只有两位数。“当 99 变成了 00，”他说，“电脑就不知道是哪一年了，它们会瘫痪。”</p>
+<hr>
+<p>“我叫查尔斯。”他说。他停顿了一下，等着我说我的名字，但我没吭声。“我在上一出剧里见过你。”过了一小会儿，他又说：“我想告诉你一件事。”我做好准备，不知道他要说什么，然后他说：“我想告诉你，你的歌声是我听过的最好听的。”</p>
+<h3 id="直觉"><a href="#直觉" class="headerlink" title="直觉"></a>直觉</h3><p>他就接受了我们要骑他的要求，接受了自己被骑的命运。他接受了这个世界的本来面目，在其中，他是别人的所属物。他从没有过野性，所以听不到来自另一个   世界大山的狂野召唤——在那里，他既不能被拥有，也不能被人骑。</p>
+<h3 id="鱼眼睛"><a href="#鱼眼睛" class="headerlink" title="鱼眼睛"></a>鱼眼睛</h3><p>“是的，鱼的眼睛。死气沉沉的蠢鱼。眼睛很漂亮，但是脑袋像轮胎一样空空如也。”</p>
+<h3 id="沉默的教堂"><a href="#沉默的教堂" class="headerlink" title="沉默的教堂"></a>沉默的教堂</h3><p>我身上有某种东西，某种先知们具有的东西，它不论男女，也不分老少，是一种内在的、不可动摇的价值。</p>
+<hr>
+<p>突然间，这种价值有了条件，似乎可以被拿走或浪费。它并非与生俱来，而是一种赐予。真正有价值的不是我，而是让我变得身份模糊的表面上的约束和仪式。</p>
+<hr>
+<p>“是时候离开了，塔拉，”泰勒说，“你待得越久，离开的可能性就越小。”</p>
+<h3 id="不再是孩子"><a href="#不再是孩子" class="headerlink" title="不再是孩子"></a>不再是孩子</h3><p>虽然我仍然害怕上帝的震怒，但我对自己说，我根本不可能通过大学入学考试，这取决于上帝的旨意。如果上帝采取了行动，那么我去上学自然就是他的意愿。</p>
+<hr>
+<p>这感觉就像掷骰子，一旦扔出，便听天由命。上帝会给出得分。</p>
+<hr>
+<p>我并不觉得自己是欲望或诱惑的对象。我觉得自己像一辆人力叉车。一英寸皮肤又有什么要紧的呢？</p>
+<h2 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h2><h3 id="鲜血和羽毛"><a href="#鲜血和羽毛" class="headerlink" title="鲜血和羽毛"></a>鲜血和羽毛</h3><p>我真想和凡妮莎击掌庆祝，然后我才想起，她早就不和我坐在一起了。</p>
+<h3 id="父辈的吟诵"><a href="#父辈的吟诵" class="headerlink" title="父辈的吟诵"></a>父辈的吟诵</h3><p>有的人反对平等的大潮；有的人必须从某些人那里夺取自由。</p>
+<h3 id="我们的低语，我们的尖叫"><a href="#我们的低语，我们的尖叫" class="headerlink" title="我们的低语，我们的尖叫"></a>我们的低语，我们的尖叫</h3><p>如果当时有人问我，对我来说世界上最重要的是什么，我会回答是查尔斯。但其实他不是。而我会证明给他看。对我来说重要的不是爱情或友情，而<em>是</em>我自欺欺人的能力：相信自己很坚强。查尔斯知道我并非如此，因此我永远不会原谅他。</p>
+<hr>
+<p>他说他爱我，但这超出了他的能力范围。他不能拯救我。能拯救我的只有我自己。</p>
+<h3 id="静候水流"><a href="#静候水流" class="headerlink" title="静候水流"></a>静候水流</h3><p>“他承受着比别人更多的魔鬼的诱惑，”埃米莉说，“因为他的天赋，因为他是撒旦的威胁。这就是他有问题的原因。因为他的正义。”</p>
+<h3 id="假如我是女人"><a href="#假如我是女人" class="headerlink" title="假如我是女人"></a>假如我是女人</h3><p>我似乎不太可能真的被批准去那里。接着我意识到，我需要一本护照，但是没有正式的出生证明就没法办护照。像我这样的人不属于剑桥。仿佛整个宇宙都明白这一点，都在试图阻止我这种亵渎上帝的去意行为。</p>
+<h3 id="卖花女"><a href="#卖花女" class="headerlink" title="卖花女"></a>卖花女</h3><p>“我只是站着，”我说，“你们却都降低身体，试图弥补，因为高处让你们害怕。但蹲着走和侧身走并不自然，这样反而让自己变得脆弱。如果能控制住恐慌，这风就不值一提了。”</p>
+<hr>
+<p>意识到个人对过去的了解是有限的，并将永远局限于别人所告诉他们的。我知道误解被纠正是什么感觉——改变重大的误解便是改变了世界。现在，我需要了解那些伟大的历史看门人是如何向自己的无知和偏见妥协的。我想如果我能接受他们所写的东西不是绝对的，而是一种带有偏见的话语和修正过程的结果，也许我就可以接受这样一个事实：大多数人认同的历史不是我被教导的历史。爸爸可能是错的，伟大的历史学家卡莱尔、麦考利和特里维廉也可能是错的，但从他们争论的灰烬中，我可以构建一个世界，生活在其中。当我知道了地面根本不是地面，我希望自己能站在上面。</p>
+<hr>
+<p>我脑海中充满了一个痛苦的需求：离开那个房间。那一刻，我不在剑桥大学的钟塔里。我重返十七岁，坐在一辆红色吉普车里，而我爱的男孩刚刚碰了我的手。我落荒而逃。</p>
+<hr>
+<p>我想象自己是一个身着黑色长袍的剑桥毕业生，大步穿过古老的走廊时，长袍沙沙作响。接下来的画面是我蜷缩在卫生间，手臂拧向背后，头伸进马桶。我试着把注意力集中在毕业生的画面，但我办不到。我无法只去想象那个身穿黑袍的女孩的画面，而对<em>另一个</em>女孩视而不见。学者与妓女，不可能都是真的。其中一个是谎言。</p>
+<h3 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h3><p>我拐过弯，他仍然保持着那个姿势。父亲的那个形象我将永远铭记：他脸上的表情充满爱意、恐惧和失落。我知道他为什么害怕。我在巴克峰的最后一夜，就是他说不会来参加我毕业典礼的那一夜，他无意中吐露过。</p>
+<p>“如果你在美国，”他低声说，“无论你在哪个角落，我们都可以去找你。我在地下埋了一千加仑汽油。世界末日来临时我可以去接你，带你回家，让你平平安安的。但要是你去了大洋彼岸……”</p>
+<h2 id="第三部分"><a href="#第三部分" class="headerlink" title="第三部分"></a>第三部分</h2><h3 id="全能上帝之手"><a href="#全能上帝之手" class="headerlink" title="全能上帝之手"></a>全能上帝之手</h3><p>“消极自由，”他说，“是不受外部限制或阻碍的自由。此种意义下的自由指一个人的身体不受他人阻碍地行动。”</p>
+<hr>
+<p>他说积极自由是自制，由自我掌控的自我统治。他解释说，拥有积极自由就是控制自己的思想，从非理性的恐惧和信仰中解放出来，从上瘾、迷信和所有其他形式的自我强迫中解脱出来。</p>
+<h3 id="太阳以西"><a href="#太阳以西" class="headerlink" title="太阳以西"></a>太阳以西</h3><p>我试图忘记那个夜晚。十五年来，我第一次合上日记，把它收了起来。写日记是一种沉思，而我不想思考任何事情。</p>
+<h3 id="两双挥舞的手臂"><a href="#两双挥舞的手臂" class="headerlink" title="两双挥舞的手臂"></a>两双挥舞的手臂</h3><blockquote>
+<p>当生活本身已经如此荒唐，谁知道什么才能算作疯狂？——引用自《堂吉诃德》</p>
+</blockquote>
+<h3 id="救赎之赌"><a href="#救赎之赌" class="headerlink" title="救赎之赌"></a>救赎之赌</h3><p>我回来是为了悔过自新，挽救人生。但这里没有什么可拯救的，也没有什么可把握的。只有流动的沙粒，转瞬即逝的忠诚，以及不断变化的历史。</p>
+<h3 id="家庭"><a href="#家庭" class="headerlink" title="家庭"></a>家庭</h3><p>我问自己：当一个人对家庭的责任与他对朋友、对社会、对自己的责任冲突时，他该怎么做？</p>
+<h3 id="教育"><a href="#教育" class="headerlink" title="教育"></a>教育</h3><p>小时候，我等待思想成熟，等待经验积累，等待抉择坚定，等待成为一个成年人的样子。那个人，或者那个化身，曾经有所归属。我<em>属于</em>那座山，是那座山塑造了我。只是随着年龄的增长，我开始思考，我的起点是否就是我的终点——一个人初具的雏形是否就是他唯一真实的样貌。</p>
+<hr>
+<p>我们之间的裂痕已经持续破裂了二十年，如果有那么一刻，让裂痕最终扩大到无法修补，我相信是在那个冬夜。当我盯着卫生间镜子里自己的映象，在不知不觉中，父亲用扭曲的双手抓起电话，拨通了哥哥的号码。迭戈，刀子。接下来发生的事非常戏剧化，但真正的戏剧早在卫生间就已上演了。</p>
+<p>戏剧上演时，不知为何，我无法再穿过镜子，将十六岁的自己释放出来代替我。</p>
+<p>在那一刻之前，她一直在那里。无论我看上去发生了多么大的变化——我的教育如何辉煌，我的外表如何改变——我仍然是<em>她</em>。我充其量不过是内心分裂的两个人。<em>她</em>在里面，每当我跨进父亲家的门槛，她就出现。</p>
+<p>那天晚上我召唤她，她没有回应。她离我而去，封存在了镜子里。在那一刻之后，我做出的决定都不再是她会做的决定。它们是由一个改头换面的人，一个全新的自我做出的选择。</p>
+<p>你可以用很多说法来称呼这个自我：转变，蜕变，虚伪，背叛。</p>
+<p>而我称之为：教育。</p>
+<blockquote>
+<p>2024 年 7 月~ 2024 年 7 月</p>
+</blockquote>
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/">#书间有道</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2024/07/07/%E9%9A%8F%E7%AC%94/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/Week%207/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">暑期实习 Week 7</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2024/06/30/%E9%9A%8F%E7%AC%94/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0/Week%206/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">暑期实习 Week 6</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E7%82%B9%E6%91%98%E5%BD%95"><span class="nav-text"> 一点摘录</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86"><span class="nav-text">第一部分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8B%A9%E5%96%84"><span class="nav-text">择善</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A9%E4%BA%A7%E5%A3%AB"><span class="nav-text">助产士</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A5%B6%E6%B2%B9%E8%89%B2%E9%9E%8B%E5%AD%90"><span class="nav-text">奶油色鞋子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%BF%E5%B8%95%E5%A5%87%E5%A5%B3%E4%BA%BA"><span class="nav-text">阿帕奇女人</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E5%B0%8F%E7%9B%BE%E7%89%8C"><span class="nav-text">大小盾牌</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BD%93%E6%97%B6%E4%B8%96%E4%BB%A3%E7%9A%84%E5%AE%8C%E5%85%A8%E4%BA%BA"><span class="nav-text">当时世代的完全人</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B4%E8%A7%89"><span class="nav-text">直觉</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%B1%BC%E7%9C%BC%E7%9D%9B"><span class="nav-text">鱼眼睛</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B2%89%E9%BB%98%E7%9A%84%E6%95%99%E5%A0%82"><span class="nav-text">沉默的教堂</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8D%E5%86%8D%E6%98%AF%E5%AD%A9%E5%AD%90"><span class="nav-text">不再是孩子</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86"><span class="nav-text">第二部分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%B2%9C%E8%A1%80%E5%92%8C%E7%BE%BD%E6%AF%9B"><span class="nav-text">鲜血和羽毛</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%88%B6%E8%BE%88%E7%9A%84%E5%90%9F%E8%AF%B5"><span class="nav-text">父辈的吟诵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%91%E4%BB%AC%E7%9A%84%E4%BD%8E%E8%AF%AD%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9A%84%E5%B0%96%E5%8F%AB"><span class="nav-text">我们的低语，我们的尖叫</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9D%99%E5%80%99%E6%B0%B4%E6%B5%81"><span class="nav-text">静候水流</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%81%87%E5%A6%82%E6%88%91%E6%98%AF%E5%A5%B3%E4%BA%BA"><span class="nav-text">假如我是女人</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%96%E8%8A%B1%E5%A5%B3"><span class="nav-text">卖花女</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AF%95%E4%B8%9A"><span class="nav-text">毕业</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86"><span class="nav-text">第三部分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%A8%E8%83%BD%E4%B8%8A%E5%B8%9D%E4%B9%8B%E6%89%8B"><span class="nav-text">全能上帝之手</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%AA%E9%98%B3%E4%BB%A5%E8%A5%BF"><span class="nav-text">太阳以西</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%A4%E5%8F%8C%E6%8C%A5%E8%88%9E%E7%9A%84%E6%89%8B%E8%87%82"><span class="nav-text">两双挥舞的手臂</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%91%E8%B5%8E%E4%B9%8B%E8%B5%8C"><span class="nav-text">救赎之赌</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%B6%E5%BA%AD"><span class="nav-text">家庭</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%99%E8%82%B2"><span class="nav-text">教育</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2022</span> -
+            
+            2025
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">儒烏風亭いおり</a>
+            
+        </div>
+        
+            <script async 
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                
+                
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>
