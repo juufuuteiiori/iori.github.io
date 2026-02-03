@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="儒烏風亭いおり">
+    
+    <title>
+        
+            SanDisk |
+        
+        いおり的博客
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#9966FF","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","font_size":null,"font_family":null,"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"https://cdn.statically.io/gh/Paraderno/picx-images-hosting@master/らでんさん.4ckr96h8ih.webp","description":"更健康，更长久","font_color":null,"hitokoto":{"enable":false}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default","code_block_collapse":true},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.7"},"waline":{"server_url":null,"reaction":null,"version":2}},"post":{"img_align":"center","word_count":{"enable":true,"wordcount":true,"min2read":false},"author_label":{"enable":false},"auto":false,"custom_label_list":[]},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                </a>
+            
+            <a class="logo-title" href="/">
+               いおり的博客
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">SanDisk</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/%E5%A4%B4%E5%83%8F.26lrjaiazx.webp">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">儒烏風亭いおり</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2026-02-03 12:00:00</span>
+        <span class="mobile">2026-02-03 12:00</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2026-02-04 00:15:04</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E9%98%85%E4%B8%96%E5%BD%95/">阅世录</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E7%81%AF%E4%B8%8B%E8%B4%A6%E7%B0%BF/">灯下账簿</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>817 字</span>
+        </span>
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h2 id="2026-年-2-月-3-日"><a href="#2026-年-2-月-3-日" class="headerlink" title=" 2026 年 2 月 3 日"></a><span id="more"></span> 2026 年 2 月 3 日</h2><p>SanDisk（闪迪） 是一家全球领先的 闪存存储解决方案提供商，其核心业务围绕 NAND Flash 存储技术与产品。商业收入来源企业、个人 SSD。撞到了 AI 的风口，市场需求很足。</p>
+<p>NAND 设计 → 联合制造 → SSD/嵌入式模块开发 → OEM/渠道销售 → 企业 &amp; 数据中心解决方案部署<br>NAND 闪存 是一种 非易失性（non-volatile）存储器，也就是说它可以在 断电后仍然保存数据。<br>未来的发展方向是堆层，提高密度。和芯片有点像。</p>
+<p>HBM（High Bandwidth Memory，高带宽内存）是一种 基于 DRAM 的 3D 堆叠内存，通过 TSV（硅通孔）+ 超宽接口，为 GPU/AI 加速器提供极高带宽、极低延迟的内存。<br>HBF（High Bandwidth Flash，高带宽闪存）是一种 基于 NAND Flash 的新型存储形态，目标是：用 远高于 SSD 的带宽 + 远高于 DRAM 的容量 + 远低于 HBM 的成本。在 AI 系统中 “补位”内存层级</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">GPU</span><br><span class="line">│</span><br><span class="line">│  HBM        ← 热数据 / 实时计算</span><br><span class="line">│</span><br><span class="line">│  HBF        ← 大模型参数 / KV Cache / 扩展内存</span><br><span class="line">│</span><br><span class="line">│  SSD        ← 数据集 / checkpoint</span><br><span class="line">│</span><br><span class="line">│  HDD / 云</span><br></pre></td></tr></table></figure>
+<p>SRAM（Static Random Access Memory，静态随机存取存储器）是一种 易失性内存，只要通电，数据就能一直保持，不需要刷新。计算机架构课程中讲到的内存分级体系的最高级，直接和 CPU 打交道的 L1 L2 L3<br>DRAM（Dynamic Random Access Memory，动态随机存取存储器）也是 易失性内存，但必须 不断刷新 才能保存数据。</p>
+<p>AI 发展的太快，内存不够用了，于是从 DRAM 继续往下找，找到了 NAND 闪存。于是这个行业的老大闪迪起飞了。本质上还是 AI 叙事？驱动力是数据中心，AI 终端的电脑手机。</p>
+<p>闪迪在 25 年 2 月从西部数据拆分出来独立上市。管理层基本都是从西部数据平移过来的，西部数据的新管理层反而是提拔上来的。所以，真的不是西部数据被拆分出去吗？<br>CEO David Goeckeler，曾担任五年西部数据的 CEO。<br>CFO Luis Visoso，（这哥们好帅），<br>CPO Christine Bastian<br>CLO Bernard Shek<br>CRO Jim Elliott<br>COO V. Don Angspatt<br>CTO Alper Ilkbahar</p>
+<p>GPT 的回答挺有意思的。<br>原因很现实：<br>NAND 和 HDD 的资本逻辑完全不同，投资者无法给一个“混合体”合理估值。<br>AI 时代：NAND = 成长型 + 技术型，HDD = 防御型 + 现金流<br>👉 拆分是为了让 NAND“彻底摆脱 HDD 的估值拖累”</p>
+<p><a class="link" target="_blank" rel="noopener" href="https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-second-quarter-2026-financial-results?utm_source=chatgpt.com">2026 年 Q2 财报<i class="fas fa-external-link-alt"></i></a></p>
+<p>Q2 收入突然起飞，前面几个季度变化不大。主要营收还是 Edge，占比 55%，Q1 时候的占比是 60%，因为数据中心和消费者的 AI 终端需求增长快。（还是 AI 叙事）<br>会计商誉它们算的这么高？49.95 亿刀，而且每个季度只下降 4 百万，是不是降幅太低了？<br>长期负债降低了一大截，68.1%。为什么会选择偿还长期债务？是因为手上的现金太多，又没有合适的地方处置，于是选择了下策，提前偿还？还是说这些长期债务突然一下到期了 68%，这种情况不太现实。</p>
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E7%81%AF%E4%B8%8B%E8%B4%A6%E7%B0%BF/">#灯下账簿</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2026/02/03/%E9%98%85%E4%B8%96%E5%BD%95/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/%E3%80%8A%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E4%B9%94%E5%B8%83%E6%96%AF%E4%BC%A0%E3%80%8B%EF%BC%9A%E6%8A%A5%E6%97%B6%E4%BA%BA%E8%BF%98%E6%98%AF%E9%80%A0%E9%92%9F%E4%BA%BA/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">《史蒂夫·乔布斯传》：报时人还是造钟人</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2026/01/25/%E9%98%85%E4%B8%96%E5%BD%95/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/%E3%80%8A%E5%B7%B4%E8%8F%B2%E7%89%B9%E8%87%B4%E8%82%A1%E4%B8%9C%E7%9A%84%E4%BF%A1%EF%BC%9A%E6%8A%95%E8%B5%84%E8%80%85%E5%92%8C%E5%85%AC%E5%8F%B8%E9%AB%98%E7%AE%A1%E6%95%99%E7%A8%8B%E3%80%8B%EF%BC%9A%E6%A8%A1%E7%B3%8A%E7%9A%84%E6%AD%A3%E7%A1%AE/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">《巴菲特致股东的信：投资者和公司高管教程》：模糊的正确</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#2026-%E5%B9%B4-2-%E6%9C%88-3-%E6%97%A5"><span class="nav-text"> 2026 年 2 月 3 日</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2022</span> -
+            
+            2026
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">儒烏風亭いおり</a>
+            
+        </div>
+        
+            <script async 
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                
+                
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>
