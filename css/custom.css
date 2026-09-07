@@ -2,3 +2,28 @@
   /* 加大内容区域最大宽度，默认约 1000px，调整为 1500px */
   --page-content-max-width: 1200px;
 }
+
+/* 正文图片统一限宽并居中，md 里保持 ![]() 原生写法即可 */
+.keep-markdown-body > img,
+.keep-markdown-body p > img,
+.keep-markdown-body figure > img {
+  max-width: 600px;
+  margin: 0.8rem auto;
+}
+
+/* 图片图注：md 里写 ![](url "图注文字") 自动生成 */
+.keep-markdown-body figure {
+  margin: 1rem 0;
+}
+
+.keep-markdown-body figure > img {
+  margin: 0 auto;
+}
+
+.keep-markdown-body figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-color-3);
+  text-align: center;
+}

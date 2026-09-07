@@ -35,7 +35,7 @@
     <script class="keep-theme-configurations">
     const KEEP = window.KEEP || {}
     KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.json"}
-    KEEP.theme_config = {"base_info":{"primary_color":"#9966FF","title":"いおり的博客","author":"儒烏風亭いおり","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp"},"menu":{"home":"/","categories":"/categories","tags":"/tags","about":"/about"},"first_screen":{"enable":true,"background_img":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/2026-IMG_1604.8s4213g3ze.webp","background_img_dark":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/2026-IMG_1604.8s4213g3ze.webp","description":"阅读、学习、思考、工作","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":true,"percent":true,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"created","post_datetime_format":"YYYY-MM-DD HH:mm:ss"},"post":{"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss"},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":true,"provider":"jsdelivr"},"pjax":{"enable":true},"footer":{"since":2022,"word_count":true},"inject":{"enable":true,"css":["/css/custom.css"]},"root":"","source_data":{},"version":"4.2.5"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#9966FF","title":"いおり的博客","author":"儒烏風亭いおり","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/头像.26lrjaiazx.webp"},"menu":{"home":"/","categories":"/categories","tags":"/tags","about":"/about"},"first_screen":{"enable":true,"background_img":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/2026-IMG_1604.8s4213g3ze.webp","background_img_dark":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/2026-IMG_1604.8s4213g3ze.webp","description":"阅读、学习、思考","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":true,"percent":true,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"created","post_datetime_format":"YYYY-MM-DD HH:mm:ss"},"post":{"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss"},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":true,"provider":"jsdelivr"},"pjax":{"enable":true},"footer":{"since":2022,"word_count":true},"inject":{"enable":true,"css":["/css/custom.css"]},"root":"","source_data":{},"version":"4.2.5"}
     KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
     KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
     KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
@@ -224,6 +224,14 @@
                 
                     <li class="post-item border-box">
                         <span class="starting-point border-box flex-center"></span>
+                        <span class="post-date border-box">09-20</span>
+                        <a class="post-title border-box text-ellipsis"
+                           href="/2025/09/20/%E9%98%85%E4%B8%96%E5%BD%95/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/%E3%80%8A%E7%94%9F%E6%AD%BB%E7%96%B2%E5%8A%B3%E3%80%8B%EF%BC%9A%E5%93%AA%E9%87%8C%E6%89%8D%E6%98%AF%E9%98%B4%E6%9B%B9%E5%9C%B0%E5%BA%9C/"
+                        >《生死疲劳》：哪里才是阴曹地府</a>
+                    </li>
+                
+                    <li class="post-item border-box">
+                        <span class="starting-point border-box flex-center"></span>
                         <span class="post-date border-box">08-26</span>
                         <a class="post-title border-box text-ellipsis"
                            href="/2025/08/26/%E9%98%85%E4%B8%96%E5%BD%95/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/%E3%80%8A%E6%AE%B5%E6%B0%B8%E5%B9%B3%E6%8A%95%E8%B5%84%E9%97%AE%E7%AD%94%E5%BD%95%E6%8A%95%E8%B5%84%E9%80%BB%E8%BE%91%E7%AF%87%E3%80%8B%EF%BC%9A%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"
@@ -303,14 +311,6 @@
                         >《你当像鸟飞往你的山》</a>
                     </li>
                 
-                    <li class="post-item border-box">
-                        <span class="starting-point border-box flex-center"></span>
-                        <span class="post-date border-box">06-10</span>
-                        <a class="post-title border-box text-ellipsis"
-                           href="/2024/06/10/%E9%98%85%E4%B8%96%E5%BD%95/%E4%B9%A6%E9%97%B4%E6%9C%89%E9%81%93/%E3%80%8A%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89%E3%80%8B/"
-                        >《それから》</a>
-                    </li>
-                
             </ul>
         </section>
     
@@ -383,7 +383,7 @@
             
                 <span class="count-item border-box word">
                     <span class="item-type border-box">总字数</span>
-                    <span class="item-value border-box word">207.2k</span>
+                    <span class="item-value border-box word">209.3k</span>
                 </span>
             
 
