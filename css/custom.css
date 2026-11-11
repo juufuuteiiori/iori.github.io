@@ -27,3 +27,241 @@
   color: var(--text-color-3);
   text-align: center;
 }
+
+/* 足迹地图：宽高比按日本本土地图，打开时正好框住日本 */
+.footprints-map {
+  width: min(100%, 40rem);
+  aspect-ratio: 0.867;
+  height: auto;
+  margin: 1rem auto 1.5rem;
+  border-radius: 12px;
+  z-index: 1;
+}
+
+/* 主题会给正文图片加 max-width，瓦片和标记必须排除 */
+.keep-markdown-body .footprints-map img {
+  position: absolute;
+  display: block;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  cursor: auto;
+}
+
+@media (max-width: 768px) {
+  .footprints-map {
+    width: 100%;
+    border-radius: 8px;
+  }
+}
+
+.footprints-popup {
+  line-height: 1.6;
+}
+
+.footprints-popup a {
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+
+/* 看板娘：手机上缩小，贴在右下角工具左侧 */
+.kanban {
+  position: fixed;
+  right: 3.2rem;
+  bottom: 0.4rem;
+  z-index: 1006;
+  display: block;
+  width: 96px;
+  user-select: none;
+  transition: transform 0.28s ease, width 0.28s ease;
+}
+
+.kanban.is-aside {
+  transform: translateX(-72px);
+}
+
+.kanban.is-compact {
+  width: 72px;
+}
+
+@media (min-width: 768px) {
+  .kanban {
+    right: 4.4rem;
+    bottom: 0.6rem;
+    width: 150px;
+  }
+
+  .kanban.is-aside {
+    transform: translateX(-120px);
+  }
+
+  .kanban.is-compact {
+    width: 92px;
+  }
+}
+
+.kanban-bob {
+  animation: kanban-breathe 3.2s ease-in-out infinite;
+}
+
+@keyframes kanban-breathe {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.kanban-hit {
+  position: relative;
+  display: block;
+  width: 96px;
+  height: 175px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.kanban-hit img {
+  position: absolute;
+  inset: 0;
+  width: 96px;
+  height: 175px;
+  object-fit: contain;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .kanban-hit,
+  .kanban-hit img {
+    width: 150px;
+    height: 274px;
+  }
+}
+
+.kanban-hit img.is-on {
+  opacity: 1;
+}
+
+.kanban-hit,
+.kanban-hit img {
+  transition: width 0.28s ease, height 0.28s ease;
+}
+
+.kanban.is-compact .kanban-hit,
+.kanban.is-compact .kanban-hit img {
+  width: 72px;
+  height: 131px;
+}
+
+@media (min-width: 768px) {
+  .kanban.is-compact .kanban-hit,
+  .kanban.is-compact .kanban-hit img {
+    width: 92px;
+    height: 168px;
+  }
+}
+
+.kanban-bubble {
+  position: absolute;
+  right: calc(100% + 8px);
+  bottom: 58%;
+  width: max-content;
+  max-width: 11rem;
+  margin: 0;
+  padding: 0.45rem 0.65rem;
+  color: var(--text-color-1);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: left;
+  background: var(--background-color-1);
+  border-radius: 12px 12px 4px 12px;
+  box-shadow: 0 6px 18px var(--shadow-color);
+}
+
+.kanban-bubble[hidden] {
+  display: none;
+}
+
+.kanban-bubble:not([hidden]) {
+  cursor: pointer;
+}
+
+.footer .kanban-credit {
+  color: var(--text-color-3);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.kanban-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  background: rgba(40, 40, 40, 0.55);
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.kanban-open {
+  position: fixed;
+  right: 3.2rem;
+  bottom: 1rem;
+  z-index: 1006;
+  display: block;
+  padding: 0.35rem 0.75rem;
+  color: var(--text-color-1);
+  font-size: 12px;
+  line-height: 1.4;
+  background: var(--background-color-1);
+  border: 0;
+  border-radius: 999px;
+  box-shadow: 0 6px 18px var(--shadow-color);
+  cursor: pointer;
+  transition: transform 0.28s ease;
+}
+
+.kanban-open.is-aside {
+  transform: translateX(-72px);
+}
+
+@media (min-width: 768px) {
+  .kanban-open {
+    right: 4.4rem;
+    bottom: 1.4rem;
+  }
+
+  .kanban-open.is-aside {
+    transform: translateX(-120px);
+  }
+}
+
+.kanban-open[hidden] {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kanban-bob {
+    animation: none;
+  }
+
+  .kanban,
+  .kanban-hit,
+  .kanban-hit img,
+  .kanban-open {
+    transition: none;
+  }
+}

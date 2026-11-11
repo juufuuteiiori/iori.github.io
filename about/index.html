@@ -35,7 +35,7 @@
     <script class="keep-theme-configurations">
     const KEEP = window.KEEP || {}
     KEEP.hexo_config = {"hostname":"iori.life","root":"/","language":"zh-CN","path":"search.json"}
-    KEEP.theme_config = {"base_info":{"primary_color":"#9966FF","title":"いおり的博客","author":"儒烏風亭いおり","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-头像.26lrjaiazx.webp","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-头像.26lrjaiazx.webp"},"menu":{"home":"/","categories":"/categories","tags":"/tags","about":"/about"},"first_screen":{"enable":true,"background_img":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-背景.8s4213g3ze.webp","background_img_dark":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-背景.8s4213g3ze.webp","description":"阅读、学习、思考","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":true,"percent":true,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"created","post_datetime_format":"YYYY-MM-DD HH:mm:ss"},"post":{"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss"},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":true,"provider":"jsdelivr"},"pjax":{"enable":true},"footer":{"since":2022,"word_count":true},"inject":{"enable":true,"css":["/css/custom.css"]},"root":"","source_data":{},"version":"4.2.5"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#9966FF","title":"いおり的博客","author":"儒烏風亭いおり","avatar":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-头像.26lrjaiazx.webp","logo":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-头像.26lrjaiazx.webp","favicon":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-头像.26lrjaiazx.webp"},"menu":{"home":"/","categories":"/categories","tags":"/tags","足迹":"/footprints","about":"/about"},"first_screen":{"enable":true,"background_img":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-背景.8s4213g3ze.webp","background_img_dark":"https://cdn.statically.io/gh/juufuuteiiori/picx-images-hosting@master/站点-背景.8s4213g3ze.webp","description":"阅读、学习、思考","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":true,"percent":true,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"created","post_datetime_format":"YYYY-MM-DD HH:mm:ss"},"post":{"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss"},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":true,"provider":"jsdelivr"},"pjax":{"enable":true},"footer":{"since":2022,"word_count":true},"inject":{"enable":true,"css":["/css/custom.css"],"js":["/js/kanban.js","/js/cloudflare-analytics.js"]},"root":"","source_data":{},"version":"4.2.5"}
     KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
     KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
     KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
@@ -114,6 +114,16 @@
                         </li>
                     
                         
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/footprints">
+                                
+                                足迹
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
                         <li class="menu-item flex-start border-box active">
                             <a class="menu-text-color border-box" href="/about">
                                 
@@ -174,6 +184,18 @@
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/tags">
                             
                             标签
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/footprints">
+                            
+                            足迹
                         </a>
                         
                     </label>
@@ -289,7 +311,7 @@
 <ul>
 <li>英雄联盟：从 2013、2014 年左右开始玩的。男爵领域双排钻四，台服单排钻四，艾欧尼亚（iori#94328）单排钻一。最近只玩艾欧尼亚了。</li>
 </ul>
-<h2 id="三、联系我"><a href="#三、联系我" class="headerlink" title="三、联系我"></a>三、联系我</h2><p>邮箱： <a class="link"   href="mailto:&#110;&#111;&#x72;&#x62;&#x65;&#x72;&#116;&#x65;&#x74;&#114;&#x69;&#x63;&#x6b;&#x38;&#x39;&#55;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#109;" >norbertetrick897@gmail.com<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="三、联系我"><a href="#三、联系我" class="headerlink" title="三、联系我"></a>三、联系我</h2><p>邮箱： <a class="link"   href="mailto:&#110;&#111;&#114;&#x62;&#x65;&#x72;&#116;&#101;&#x74;&#114;&#105;&#99;&#x6b;&#56;&#x39;&#x37;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;" >norbertetrick897@gmail.com<i class="fas fa-external-link-alt"></i></a></p>
 
                 
             </div>
@@ -508,6 +530,18 @@
 
 
 
+    
+        
+            
+<script class="custom-inject-js" src="/js/kanban.js" data-pjax></script>
+
+        
+    
+        
+            
+<script class="custom-inject-js" src="/js/cloudflare-analytics.js" data-pjax></script>
+
+        
     
 
 </body>
