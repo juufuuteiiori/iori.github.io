@@ -3,6 +3,11 @@
   --page-content-max-width: 1200px;
 }
 
+/* 子页面 header 和首页一样宽。主题只在平板、手机里改 width，这里不改 width。 */
+.header-wrapper .header-content {
+  max-width: var(--page-content-max-width-2);
+}
+
 /* 正文图片统一限宽并居中，md 里保持 ![]() 原生写法即可 */
 .keep-markdown-body > img,
 .keep-markdown-body p > img,
