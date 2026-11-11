@@ -4,6 +4,6 @@
   var script = document.createElement('script')
   script.defer = true
   script.src = 'https://static.cloudflareinsights.com/beacon.min.js'
-  script.setAttribute('data-cf-beacon', '{"token":"7a449b24dbe849ea9fa282c87b405932"}')
+  script.setAttribute('data-cf-beacon', '{"token":"890870f0f38c4b99aee47a9183a1aa7e"}')
   document.head.appendChild(script)
 })()
