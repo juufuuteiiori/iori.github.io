@@ -12,7 +12,7 @@
 .keep-markdown-body > img,
 .keep-markdown-body p > img,
 .keep-markdown-body figure > img {
-  max-width: 600px;
+  max-width: min(600px, 100%);
   margin: 0.8rem auto;
 }
 
